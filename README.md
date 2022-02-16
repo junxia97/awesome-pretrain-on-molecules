@@ -1,178 +1,90 @@
-# Pre-training on Graphs with Its Applications: A Survey
+# A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/JaydenXia-tech/awesome-self-supervised-learning-for-graphs?color=yellow)  ![GitHub forks](https://img.shields.io/github/forks/SXKDZ/awesome-self-supervised-learning-for-graphs?color=green&label=Fork)  ![visitors](https://visitor-badge.glitch.me/badge?page_id=SXKDZ.awesome-self-supervised-learning-for-graphs)
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
-If your papers are missing or you have other requests, please contact to <xiajun@westlake.edu.cn>. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2021-12-10**
+If your papers are missing or you have other requests, please contact to <xiajun@westlake.edu.cn>. Note that we only collect papers that follows pretrain-then-finetune paradigm. We will update this repository and paper on a regular basis to maintain up-to-date.
+> **Last update date: 2022-2-10**
+
+## Contents
+- [Papers List](#papers)
+  <a name="prestrategies"></a>
+  + Pretraining Strategies
+  <a name="tunestrategies"></a>
+  + Tuning Strategies
+  <a name="others"></a>
+  + Others
+- [Open-Sourced Graph Pretrained Models](#PGMs)
+- [Pretraing Datasets](#Datasets)
+- [Citation](#Cite)
+
+<a name="papers"></a>
+## Papers List
+All Papers are sorted chronologically according to the year when they are published or released below.
+### Year 2022
+1. [WWW 2022] **SimGRACE: A Simple Framework for Graph Contrastive Learning without Data Augmentation** [[paper]](https://arxiv.org/pdf/2202.03104.pdf) [[code]](https://github.com/junxia97/SimGRACE)
+4. [WSDM 2022]**Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data Augmentations** [[paper]](https://arxiv.org/abs/2201.01702) [[code]](https://github.com/Shen-Lab/GraphCL_Automated)
+5. [SDM 2022] **Structure-Enhanced Heterogeneous Graph Contrastive Learning** [[paper]](https://sxkdz.github.io/files/publications/SDM/STENCIL/STENCIL.pdf)
+6. [AAAI 2022] **Self-supervised Graph Neural Networks via Diverse and Interactive Message Passing** [[paper]](https://yangliang.github.io/pdf/aaai22.pdf)
+9. [AAAI 2022] **Augmentation-Free Self-Supervised Learning on Graphs** [[paper]](https://arxiv.org/pdf/2112.02472.pdf)[[code]](https://github.com/Namkyeong/AFGRL)
+10. [AAAI 2022] **Molecular Contrastive Learning with Chemical Element Knowledge Graph** [[paper]](https://arxiv.org/pdf/2112.00544.pdf)
+13. [AAAI 2022] **Deep Graph Clustering via Dual Correlation Reduction** [[paper]](https://arxiv.org/pdf/2112.14772)[[code]](https://github.com/yueliu1999/DCRN)
+14. [ICOIN 2022] **Adaptive Self-Supervised Graph Representation Learning** [[paper]](https://ieeexplore.ieee.org/abstract/document/9687176)
+15. [BioRxiv 2022] **Towards Effective and Generalizable Fine-tuning for Pre-trained Molecular Graph Models** (Tuning Strategies) [[paper]](https://www.biorxiv.org/content/10.1101/2022.02.03.479055v1)
+16. [arXiv 2022] **Graph Self-supervised Learning with Accurate Discrepancy Learning** [[paper]](https://arxiv.org/pdf/2202.02989.pdf)
+17. [arXiv 2022] **Dual Space Graph Contrastive Learning** [[paper]](https://arxiv.org/pdf/2201.07409.pdf)
+
+## Year 2021
+## Year 2020
+## Year 2019
+
+<a name="PGMs"></a>
+## Open-Sourced Graph Pretrained Models
+| oprule \textbf{PGMs}                | \textbf{Input}   | \textbf{Architecture}                   | \textbf{Pretraining Task} | \textbf{Pretraining Database}                   | \textbf{\# Params.} |
+|-------------------------------------|------------------|-----------------------------------------|---------------------------|-------------------------------------------------|---------------------|
+| \hline \citet{Hu*2020Strategies}    | Graph            | 5-layer GIN                             | GCP + MCM                 | ZINC15 (2M) + ChEMBL (456K)                     | $\sim$ 2M           |
+| Graph-BERT~\cite{zhang2020graph}    | Graph            | Graph Transformer~\cite{zhang2020graph} | GAEs                      | Cora + CiteSeer + PubMed                        | N/A                 |
+| GraphCL~\cite{You2020GraphCL}       | Graph            | 5-layer GIN                             | IND                       | ZINC15 (2M) + ChEMBL (456K)                     | $\sim$ 2M           |
+| GPT-GNN~\cite{hu2020gpt}            | Graph            | HGT~\cite{hu2020heterogeneous}          | GAM                       | OAG + Amazon                                    | N/A                 |
+| GCC~\cite{qiu2020gcc}               | Graph            | 5-layer GIN                             | IND                       | Academia + DBLP + IMDB + Facebook + LiveJournal | \textless1M         |
+| JOAO~\cite{you2021graph}            | Graph            | 5-layer GIN                             | IND                       | ZINC15 (2M) + ChEMBL (456K)                     | $\sim$ 2M           |
+| AD-GCL~\cite{suresh2021adversarial} | Graph            | 5-layer GIN                             | IND                       | ZINC15 (2M) + ChEMBL (456K)                     | $\sim$ 2M           |
+| GraphLog~\cite{xu2021self}          | Graph            | 5-layer GIN                             | IND                       | ZINC15 (2M) + ChEMBL (456K)                     | $\sim$ 2M           |
+| GROVER~\cite{rong2020self}          | Graph            | GTransformer~\cite{rong2020self}        | GCP + MCM                 | ZINC + ChEMBL (10M)                             | 48M$\sim$100M       |
+| MGSSL~\cite{zhang2021motif}         | Graph            | 5-layer GIN                             | MCM + GAM                 | ZINC15 (250K)                                   | $\sim$ 2M           |
+| CPT-HG~\cite{jiang2021contrastive}  | Graph            | HGT~\cite{hu2020heterogeneous}          | IND                       | DBLP + YELP + Aminer                            | N/A                 |
+| PGM~\cite{li2021effective}          | Graph            | MolGNet~\cite{li2021effective}          | RCD + MCM                 | ZINC + ChEMBL (11M)                             | 53M                 |
+| LP-Info~\cite{you2022bringing}      | Graph            | 5-layer GIN                             | IND                       | ZINC15 (2M) + ChEMBL (456K)                     | $\sim$ 2M           |
+| SimGRACE~\cite{xia2022simgrace}     | Graph            | 5-layer GIN                             | IND                       | ZINC15 (2M) + ChEMBL (456K)                     | $\sim$ 2M           |
+| MolCLR~\cite{Wang2021MolCLRMC}      | Graph + SMILES   | GCN + GIN                               | IND                       | PubChem (10M)                                   | N/A                 |
+| DMP~\cite{Zhu2021DualviewMP}        | Graph + SMILES   | DeeperGCN + Transformer                 | MCM + IND                 | PubChem (110M)                                  | 104.1 M             |
+| ChemRL-GEM~\cite{Fang2021geo}       | Graph + Geometry | GeoGNN~\cite{Fang2021geo}               | MCM+GCP                   | ZINC15 (20M)                                    | N/A                 |
+| KCL~\cite{fang2021molecular}        | Graph + KG       | GCN + KMPNN~\cite{fang2021molecular}    | IND                       | ZINC15 (250K)                                   | \textless 1M        |
+| 3D Infomax~\cite{stark20213d}       | 2D and 3D graph  | PNA~\cite{corso2020principal}           | IND                       | QM9(50K) + GEOM-drugs(140K) + QMugs(620K)       | N/A                 |
+| GraphMVP~\cite{liu2022pretraining}  | 2D and 3D graph  | GIN + SchNet~\cite{NIPS2017_303ed4c6}   | IND + GAEs                | GEOM (50k)             | $\sim$ 2M  |
+
+
+
+<a name="Datasets"></a>
+## Pretraing Datasets
+| 名称           | 数据来源     | 训练数据大小 | 词表大小 | 模型大小 | 下载地址 |
+| :----------:  | :---------: | :---------:| :------: | :------: | :------: |
+| RoBERTa Tiny  | 百科,新闻 等  |     35G    | 21128    | 27MB | [下载链接](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-4_H-312_A-12.zip) |
+| RoBERTa Small | 百科,新闻 等  |     35G    | 21128  | 48MB  | [下载链接](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-6_H-384_A-12.zip) |
+| SimBERT Tiny  | [百度知道](http://zhidao.baidu.com/) | 2200万相似句组 | 13685  | 26MB  | [下载链接](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-4_H-312_A-12.zip) |
+| SimBERT Small  | [百度知道](http://zhidao.baidu.com/) | 2200万相似句组 | 13685  | 49MB  | [下载链接](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-6_H-384_A-12.zip) |
+| SimBERT Base  | [百度知道](http://zhidao.baidu.com/) | 2200万相似句组 | 13685  | 344MB  | [下载链接](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-12_H-768_A-12.zip) |
+| RoBERTa<sup>+</sup> Tiny  | 百科,新闻 等  |     35G    | 21128    | 35MB | [下载链接](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-4_H-312_A-12_K-104.zip) |
+| RoBERTa<sup>+</sup> Small | 百科,新闻 等  |     35G    | 21128  | 67MB  | [下载链接](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-6_H-384_A-12_K-128.zip) |
+| WoBERT | 百科,新闻 等  |     35G    | 33586/50000  | 400M  | [WoBERT项目](https://github.com/ZhuiyiTechnology/WoBERT) |
+| T5 PEGASUS | 百科,新闻 等  |     35G    | 50000  | 971M  | [T5 PEGASUS项目](https://github.com/ZhuiyiTechnology/t5-pegasus) |
+
 
 ## __Citation (.bib)__ </br>
 ```
 @article{song2020learning,
-title={Learning from noisy labels with deep neural networks: A survey},
+title={A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications},
 author={Song, Hwanjun and Kim, Minseok and Park, Dongmin and Shin, Yooju and Lee, Jae-Gil},
 journal={arXiv preprint arXiv:2007.08199},
 year={2020}}
 ```
 
-## Contents
-- [List of Papers with Categorization](#papers)
-
-<a name="papers"></a>
-## List of Papers with Categorization
-
-All Papers are sorted chronologically according to **five categories** below, so that you can find related papers more quickly. 
-
-<p align="center">
-<img src="files/images/high-level-view.png " width="650">
-</p>
-
-We also provide a **tabular form** of summarization with their **methodological comaprison** (Table 2 in the paper). - [[here]](https://github.com/songhwanjun/Awesome-Noisy-Labels/blob/main/files/images/comparison.png) <br/>
-This is a **brief summary** for the categorization. Please see **Section III** in our survey paper for the details - [[here]](https://arxiv.org/pdf/2007.08199.pdf) 
-
-
-**[Index:** [Robust Architecture](#A), [Robust Regularization](#B), [Robust Loss Function](#C), [Loss Adjsutment](#D), [Sample Selection](#E)**]**
-```
-Robust Learning for Noisy Labels
-|--- A. Robust Architecture
-     |--- A.1. Noise Adaptation Layer: adding a noise adaptation layer at the top of an underlying DNN to learn label transition process
-     |--- A.2. Dedicated Architecture: developing a dedicated architecture to reliably support more diverse types of label noises.
-|--- B. Robust Regularization
-     |--- B.1. Explicit Regularization: an explicit form that modifies the expected tarining loss, e.g., weight decay and dropout.
-     |--- B.2. Implicit Regularization: an implicit form that gives the effect of stochasticity, e.g., data augmentation and mini-batch SGD.
-|--- C. Robust Loss Function: designing a new loss function robust to label noise.
-|--- D. Loss Adjsutment
-     |--- D.1. Loss Correction: multiplying the estimated transition matrix to the prediction for all the observable labels.
-     |--- D.2. Loss Reweighting: multiplying the estimated example confidence (weight) to the example loss.
-     |--- D.3. Label Refurbishment: replacing the original label with other reliable one.
-     |--- D.4. Meta Learning: finding an optimal adjustment rule for loss reweighing or label refurbishment.
-|--- E. Sample Selection
-     |--- E.1. Multi-network Learning: collaborative learning or co-training to identify clean examples from noisy data.
-     |--- E.2. Multi-round Learning: refining the selected clean set through training multiple rounds.
-     |--- E.3. Hybrid Leanring: combining a specific sample selection strategy with a specific semi-supervised learning model or other orthogonal directions.
-```
-
-<a name="A"></a>
-## A. [Robust Architecture](#content)
-#### A.1. Noise Adaptation Layer
-
-| Year   | Venue   | Title      |  Implementation  | 
-| :----: | :-----: | :--------: |:----------------:|
-| 2015   | ICCV    | [Webly supervised learning of convolutional networks](https://openaccess.thecvf.com/content_iccv_2015/papers/Chen_Webly_Supervised_Learning_ICCV_2015_paper.pdf) | [Official (Caffe)](https://github.com/endernewton/webly-supervised) |
-| 2015   | ICLRW   | [Training convolutional networks with noisy labels](https://arxiv.org/pdf/1406.2080.pdf) | [Unofficial (Keras)](https://github.com/delchiaro/training-cnn-noisy-labels-keras) |
-| 2016   | ICDM    | [Learning deep networks from noisy labels with dropout regularization](https://ieeexplore.ieee.org/abstract/document/7837934?casa_token=_c8jgFFbUQcAAAAA:2Twk6ktUkTm20xdAcD_g8sZcy7BJa8dvNND3_T21tjL-Dg0w4L797W3aVnqRQpn9IcSRLk-6_JQ5XZU) | [Official (MATLAB)](https://github.com/ijindal/Noisy_Dropout_regularization) |
-| 2016   | ICASSP  | [Training deep neural-networks based on unreliable labels](https://ieeexplore.ieee.org/document/7472164) | [Unofficial (Chainer)](https://github.com/Ryo-Ito/Noisy-Labels-Neural-Network) |
-| 2017   | ICLR    | [Training deep neural-networks using a noise adaptation layer](https://openreview.net/forum?id=H12GRgcxg) | [Official (Keras)](https://github.com/udibr/noisy_labels) |
-
-#### A.2. Dedicated Architecture
-
-| Year   | Venue   | Title      |  Implementation  | 
-| :----: | :-----: | :--------: |:----------------:|
-| 2015   | CVPR    | [Learning from massive noisy labeled data for image classification](https://openaccess.thecvf.com/content_cvpr_2015/papers/Xiao_Learning_From_Massive_2015_CVPR_paper.pdf)     |  [Official (Caffe)](https://github.com/Cysu/noisy_label)    |
-| 2018   | NeurIPS    | [Masking: A new perspective of noisy supervision](https://proceedings.neurips.cc/paper/2018/file/aee92f16efd522b9326c25cc3237ac15-Paper.pdf)     | [Official (TensorFlow)](https://github.com/bhanML/Masking)     |
-| 2018   | TIP   | [Deep learning from noisy image labels with quality embedding](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8506425)     |  N/A    |
-| 2019   | ICML    | [Robust inference via generative classifiers for handling noisy labels](http://proceedings.mlr.press/v97/lee19f.html)    |  [Official (PyTorch)](https://github.com/pokaxpoka/RoGNoisyLabel)    |
-
-<a name="B"></a>
-## B. [Robust Regularization](#content)
-#### B.1. Explicit Regularization
-
-| Year   | Venue   | Title      |  Implementation  | 
-| :----: | :-----: | :--------: |:----------------:|
-| 2018   | ECCV    | [Deep bilevel learning](https://openaccess.thecvf.com/content_ECCV_2018/papers/Simon_Jenni_Deep_Bilevel_Learning_ECCV_2018_paper.pdf)    | [Official (TensorFlow)](https://github.com/sjenni/DeepBilevel)     |
-| 2019   | CVPR    | [Learning from noisy labels by regularized estimation of annotator confusion](https://openaccess.thecvf.com/content_CVPR_2019/papers/Tanno_Learning_From_Noisy_Labels_by_Regularized_Estimation_of_Annotator_Confusion_CVPR_2019_paper.pdf)     |  [Official (TensorFlow)](https://rt416.github.io/pdf/trace_codes.pdf)    |
-| 2019   | ICML    | [Using pre-training can improve model robustness and uncertainty](http://proceedings.mlr.press/v97/hendrycks19a.html)     |  [Official (PyTorch)](github.com/hendrycks/pre-training)    |
-| 2020   | ICLR    | [Can gradient clipping mitigate label noise?](https://openreview.net/forum?id=rklB76EKPr)     |   [Unofficial (PyTorch)](https://github.com/dmizr/phuber)   |
-| 2020   | ICLR    | [Wasserstein adversarial regularization (WAR) on label noise](https://openreview.net/forum?id=SJldu6EtDS)   |  N/A    |
-| 2021   | ICLR    | [Robust early-learning: Hindering the memorization of noisy labels](https://openreview.net/forum?id=Eql5b1_hTE4)     |  [Official (PyTorch)](https://github.com/xiaoboxia/CDR)    |
-
-#### B.2. Implicit Regularization
-
-| Year   | Venue   | Title      |  Implementation  | 
-| :----: | :-----: | :--------: |:----------------:|
-| 2015   | ICLR    | [Explaining and harnessing adversarial examples](https://arxiv.org/pdf/1412.6572.pdf)     | [Unofficial (PyTorch)](https://https://github.com/sarathknv/adversarial-examples-pytorch)    |
-| 2017   | ICLRW   | [Regularizing neural networks by penalizing confident output distributions](https://openreview.net/forum?id=HyhbYrGYe)    |  [Unofficial (PyTorch)](https://github.com/CoinCheung/pytorch-loss)    |
-| 2018   | ICLR    | [Mixup: Beyond empirical risk minimization](https://openreview.net/forum?id=r1Ddp1-Rb)     |  [Official (PyTorch)](https://github.com/facebookresearch/mixup-cifar10)   |
-
-<a name="C"></a>
-## C. [Robust Loss Function](#content)
-
-| Year   | Venue   | Title      |  Implementation  | 
-| :----: | :-----: | :--------: |:----------------:|
-| 2017   | AAAI    | [Robust loss functions under label noise for deep neural networks](https://arxiv.org/pdf/1712.09482.pdf)    |   N/A   |
-| 2017   | ICCV    | [Symmetric cross entropy for robust learning with noisy labels](https://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Symmetric_Cross_Entropy_for_Robust_Learning_With_Noisy_Labels_ICCV_2019_paper.pdf)     |  [Official (Keras)](https://github.com/YisenWang/symmetric\_cross\_entropy\_for\_noisy_label)    |
-| 2018   | NeurIPS | [Generalized cross entropy loss for training deep neural networks with noisy labels](https://papers.nips.cc/paper/2018/hash/f2925f97bc13ad2852a7a551802feea0-Abstract.html)    |  [Unofficial (PyTorch)](https://github.com/AlanChou/Truncated-Loss)    |
-| 2020   | ICLR    | [Curriculum loss: Robust learning and generalization against label corruption](https://openreview.net/forum?id=rkgt0REKwS)     |  N/A   |
-| 2020   | ICML    | [Normalized loss functions for deep learning with noisy labels](http://proceedings.mlr.press/v119/ma20c.html)     |  [Official (PyTorch)](https://github.com/HanxunH/Active-Passive-Losses)    |
-| 2020   | ICML    | [Peer loss functions: Learning from noisy labels without knowing noise rates](http://proceedings.mlr.press/v119/liu20e/liu20e.pdf) |  [Official (PyTorch)](https://github.com/gohsyi/PeerLoss)    |
-
-<a name="D"></a>
-## D. [Loss Adjustment](#content)
-#### D.1. Loss Correction
-
-| Year   | Venue   | Title      |  Implementation  | 
-| :----: | :-----: | :--------: |:----------------:|
-| 2017   | CVPR    | [Making deep neural networks robust to label noise: A loss correction approach](https://openaccess.thecvf.com/content_cvpr_2017/papers/Patrini_Making_Deep_Neural_CVPR_2017_paper.pdf)     |   [Official (Keras)](https://github.com/giorgiop/loss-correction)   |
-| 2018   | NeurIPS    | [Using trusted data to train deep networks on labels corrupted by severe noise](https://papers.nips.cc/paper/2018/file/ad554d8c3b06d6b97ee76a2448bd7913-Paper.pdf)    |  [Official (PyTorch)](https://github.com/mmazeika/glc)    |
-| 2019   | NeurIPS    | [Are anchor points really indispensable in label-noise learning?](https://proceedings.neurips.cc/paper/2019/file/9308b0d6e5898366a4a986bc33f3d3e7-Paper.pdf)    |  [Official (PyTorch)](https://github.com/xiaoboxia/T-Revision)   |
-| 2020   | NeurIPS    | [Dual T: Reducing estimation error for transition matrix in label-noise learning](https://proceedings.neurips.cc/paper/2020/file/512c5cad6c37edb98ae91c8a76c3a291-Paper.pdf)     |  N/A    |
-
-#### D.2. Loss Reweighting
-
-| Year   | Venue   | Title      |  Implementation  | 
-| :----: | :-----: | :--------: |:----------------:|
-| 2017   | TNNLS   | [Multiclass learning with partially corrupted labels](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7929355)     |  [Unofficial (PyTorch)](https://github.com/xiaoboxia/Classification-with-noisy-labels-by-importance-reweighting)   |
-| 2017   | NeurIPS | [Active Bias: Training more accurate neural networks by emphasizing high variance samples](https://papers.nips.cc/paper/2017/file/2f37d10131f2a483a8dd005b3d14b0d9-Paper.pdf)     |  [Unofficial (TensorFlow)](https://github.com/songhwanjun/ActiveBias)    |
-
-#### D.3. Label Refurbishment
-
-| Year   | Venue   | Title      |  Implementation  | 
-| :----: | :-----: | :--------: |:----------------:|
-| 2015   | ICLR    | [Training deep neural networks on noisy labels with bootstrapping](https://arxiv.org/pdf/1412.6596.pdf)    |  [Unofficial (Keras)](https://github.com/dr-darryl-wright/Noisy-Labels-with-Bootstrapping)    |
-| 2018   | ICML    | [Dimensionality-driven learning with noisy labels](http://proceedings.mlr.press/v80/ma18d/ma18d.pdf)    |  [Official (Keras)](https://github.com/xingjunm/dimensionality-driven-learning)    |
-| 2019   | ICML    | [Unsupervised label noise modeling and loss correction](http://proceedings.mlr.press/v97/arazo19a/arazo19a.pdf)    |   [Official (PyTorch)](https://github.com/PaulAlbert31/LabelNoiseCorrection)   |
-| 2020   | NeurIPS | [Self-adaptive training: beyond empirical risk minimization](https://proceedings.neurips.cc/paper/2020/file/e0ab531ec312161511493b002f9be2ee-Paper.pdf)     |  [Official (PyTorch)](https://github.com/LayneH/self-adaptive-training)    |
-| 2020   | ICML    | [Error-bounded correction of noisy labels](http://proceedings.mlr.press/v119/zheng20c/zheng20c.pdf)    |  [Official (PyTorch)](https://github.com/pingqingsheng/LRT)    |
-| 2021   | AAAI    | [Beyond class-conditional assumption: A primary attempt to combat instancedependent label noise](https://arxiv.org/pdf/2012.05458.pdf)     | [Official (PyTorch)](https://github.com/chenpf1025/IDN)     |
-
-#### D.4. Meta Learning
-
-| Year   | Venue   | Title      |  Implementation  | 
-| :----: | :-----: | :--------: |:----------------:|
-| 2017   | NeurIPSW    | [Learning to learn from weak supervision by full supervision](https://arxiv.org/pdf/1711.11383.pdf)     |  [Unofficial (TensorFlow)](https://github.com/krayush07/learn-by-weak-supervision)   |
-| 2017   | ICCV    | [Learning from noisy labels with distillation](https://openaccess.thecvf.com/content_ICCV_2017/papers/Li_Learning_From_Noisy_ICCV_2017_paper.pdf)    |  N/A   |
-| 2018   | ICML    | [Learning to reweight examples for robust deep learning](http://proceedings.mlr.press/v80/ren18a/ren18a.pdf)   | [Official (TensorFlow)](https://github.com/uber-research/learning-to-reweight-examples)     |
-| 2019   | NeurIPS    | [Meta-Weight-Net: Learning an explicit mapping for sample weighting](https://arxiv.org/pdf/1902.07379.pdf)    | [Official (PyTorch)](https://github.com/xjtushujun/meta-weight-net)     |
-| 2020   | CVPR    | [Distilling effective supervision from severe label noise](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Distilling_Effective_Supervision_From_Severe_Label_Noise_CVPR_2020_paper.pdf)     |  [Official (TensorFlow)](https://github.com/google-research/google-research/tree/master/ieg)    |
-| 2021   | AAAI    | [Meta label correction for noisy label learning](https://www.aaai.org/AAAI21Papers/AAAI-10188.ZhengG.pdf)     |  [Official (PyTorch)](https://aka.ms/MLC)    |
-
-<a name="E"></a>
-## E. [Sample Selection](#content)
-#### E.1. Multi-network Learning
-
-| Year   | Venue   | Title      |  Implementation  | 
-| :----: | :-----: | :--------: |:----------------:|
-| 2017   | NeurIPS    | [Decoupling when to update from how to update](https://dl.acm.org/doi/pdf/10.5555/3294771.3294863)    |  [Official (TensorFlow)](https://github.com/emalach/UpdateByDisagreemen)    |
-| 2018   | ICML    |  [MentorNet: Learning data-driven curriculum for very deep neural networks on corrupted labels](http://proceedings.mlr.press/v80/jiang18c/jiang18c.pdf)    |  [Official (TensorFlow)](https://github.com/google/mentornet)    |
-| 2018   | NeurIPS    |  [Co-teaching: Robust training of deep neural networks with extremely noisy labels](https://arxiv.org/pdf/1804.06872.pdf)    |  [Official (PyTorch)](https://github.com/bhanML/Co-teaching)    |
-| 2019   | ICML    | [How does disagreement help generalization against label corruption?](http://proceedings.mlr.press/v97/yu19b/yu19b.pdf)    |  [Official (PyTorch)](https://github.com/bhanML/coteaching_plus)   |
-
-#### E.2. Multi-round Learning
-
-| Year   | Venue   | Title      |  Implementation  | 
-| :----: | :-----: | :--------: |:----------------:|
-| 2018   | CVPR    | [Iterative learning with open-set noisy labels](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Iterative_Learning_With_CVPR_2018_paper.pdf)     |  [Official (Keras)](https://github.com/YisenWang/Iterative_learning)    |
-| 2019   | ICML    | [Learning with bad training data via iterative trimmed loss minimization](http://proceedings.mlr.press/v97/shen19e/shen19e.pdf)     | [Official (GluonCV)](https://github.com/yanyao-shen/ITLM-simplecode)     |
-| 2019   | ICML    | [Understanding and utilizing deep neural networks trained with noisy labels](http://proceedings.mlr.press/v97/chen19g/chen19g.pdf)     |  [Official (Keras)](https://github.com/chenpf1025/noisy_label_understanding_utilizing)    |
-| 2019   | ICCV    | [O2U-Net: A simple noisy label detection approach for deep neural networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9008796)     |  [Unofficial (PyTorch)](https://github.com/hjimce/O2U-Net)   |
-| 2020   | ICMLW    | [How does early stopping can help generalization against label noise?](https://arxiv.org/pdf/1911.08059.pdf)     |  [Official (Tensorflow)](https://www.dropbox.com/sh/49py7tggwprpdup/AADFFsAGfn3EbtueYM0dI9Fea?dl=0)     |
-| 2020   | NeurIPS  | [A topological filter for learning with label noise](https://proceedings.neurips.cc/paper/2020/file/f4e3ce3e7b581ff32e40968298ba013d-Paper.pdf)     |  [Official (PyTorch)](https://github.com/pxiangwu/TopoFilter)    |
-
-
-#### E.3. Hybrid Learning
-
-| Year   | Venue   | Title      |  Implementation  | 
-| :----: | :-----: | :--------: |:----------------:|
-| 2019   | ICML    | [SELFIE: Refurbishing unclean samples for robust deep learning](http://proceedings.mlr.press/v97/song19b/song19b.pdf)    |   [Official (TensorFlow)](https://github.com/kaist-dmlab/SELFIE)   |
-| 2020   | ICLR    | [SELF: Learning to filter noisy labels with self-ensembling](https://openreview.net/pdf?id=HkgsPhNYPS)     |   N/A   |
-| 2020   | ICLR    | [DivideMix: Learning with noisy labels as semi-supervised learning](https://openreview.net/pdf?id=HJgExaVtwr)     |  [Official (PyTorch)](https://github.com/LiJunnan1992/DivideMix)    |
-| 2021   | ICLR    | [Robust curriculum learning: from clean label detection to noisy label self-correction](https://openreview.net/pdf?id=lmTWnm3coJJ)     |  N/A    |
