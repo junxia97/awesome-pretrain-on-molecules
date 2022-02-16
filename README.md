@@ -2,7 +2,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/JaydenXia-tech/awesome-self-supervised-learning-for-graphs?color=yellow)  ![GitHub forks](https://img.shields.io/github/forks/SXKDZ/awesome-self-supervised-learning-for-graphs?color=green&label=Fork)  ![visitors](https://visitor-badge.glitch.me/badge?page_id=SXKDZ.awesome-self-supervised-learning-for-graphs)
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
-If your papers are missing or you have other requests, please contact to <xiajun@westlake.edu.cn>. Note that we only collect papers that follows pretrain-then-finetune paradigm. We will update this repository and paper on a regular basis to maintain up-to-date.
+If your papers are missing or you have other requests, please contact to <xiajun@westlake.edu.cn>. We will update this repository and paper on a regular basis to maintain up-to-date.
 > **Last update date: 2022-2-10**
 
 ## Contents
@@ -12,6 +12,7 @@ If your papers are missing or you have other requests, please contact to <xiajun
   <a name="tunestrategies"></a>
   + Tuning Strategies
   <a name="others"></a>
+  + Applications
   + Others
 - [Open-Sourced Graph Pretrained Models](#PGMs)
 - [Pretraing Datasets](#Datasets)
@@ -23,6 +24,7 @@ If your papers are missing or you have other requests, please contact to <xiajun
 All Papers are sorted chronologically according to the year when they are published or released below.
 ### Year 2022
 1. [WWW 2022] **SimGRACE: A Simple Framework for Graph Contrastive Learning without Data Augmentation** [[paper]](https://arxiv.org/pdf/2202.03104.pdf) [[code]](https://github.com/junxia97/SimGRACE)
+2. [WWW 2022] **Dual Space Graph Contrastive Learning** [[paper]](https://arxiv.org/pdf/2201.07409.pdf)
 4. [WSDM 2022]**Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data Augmentations** [[paper]](https://arxiv.org/abs/2201.01702) [[code]](https://github.com/Shen-Lab/GraphCL_Automated)
 5. [SDM 2022] **Structure-Enhanced Heterogeneous Graph Contrastive Learning** [[paper]](https://sxkdz.github.io/files/publications/SDM/STENCIL/STENCIL.pdf)
 6. [AAAI 2022] **Self-supervised Graph Neural Networks via Diverse and Interactive Message Passing** [[paper]](https://yangliang.github.io/pdf/aaai22.pdf)
@@ -32,7 +34,6 @@ All Papers are sorted chronologically according to the year when they are publis
 14. [ICOIN 2022] **Adaptive Self-Supervised Graph Representation Learning** [[paper]](https://ieeexplore.ieee.org/abstract/document/9687176)
 15. [BioRxiv 2022] **Towards Effective and Generalizable Fine-tuning for Pre-trained Molecular Graph Models** (Tuning Strategies) [[paper]](https://www.biorxiv.org/content/10.1101/2022.02.03.479055v1)
 16. [arXiv 2022] **Graph Self-supervised Learning with Accurate Discrepancy Learning** [[paper]](https://arxiv.org/pdf/2202.02989.pdf)
-17. [arXiv 2022] **Dual Space Graph Contrastive Learning** [[paper]](https://arxiv.org/pdf/2201.07409.pdf)
 
 ## Year 2021
 1. [BIBM 2021] **SGAT: a Self-supervised Graph Attention Network for Biomedical Relation Extraction** [[paper]](https://ieeexplore.ieee.org/abstract/document/9669699)
@@ -199,15 +200,15 @@ All Papers are sorted chronologically according to the year when they are publis
 ## Pretraing Datasets
 | Name           | Category  | Datasize | Download Link |
 | :----------:  | :---------: | :---------:| :------: |
-| RoBERTa Tiny  | 百科,新闻 等  |     35G     | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-4_H-312_A-12.zip) |
-| RoBERTa Small | 百科,新闻 等  |     35G    | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-6_H-384_A-12.zip) |
-| SimBERT Tiny  | [百度知道](http://zhidao.baidu.com/) | 2200万相似句组  | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-4_H-312_A-12.zip) |
-| SimBERT Small  | [百度知道](http://zhidao.baidu.com/) | 2200万相似句组 |  [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-6_H-384_A-12.zip) |
-| SimBERT Base  | [百度知道](http://zhidao.baidu.com/) | 2200万相似句组  | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-12_H-768_A-12.zip) |
-| RoBERTa<sup>+</sup> Tiny  | 百科,新闻 等  |     35G    | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-4_H-312_A-12_K-104.zip) |
-| RoBERTa<sup>+</sup> Small | 百科,新闻 等  |     35G    | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-6_H-384_A-12_K-128.zip) |
-| WoBERT | 百科,新闻 等  |     35G   | [Link](https://github.com/ZhuiyiTechnology/WoBERT) |
-| T5 PEGASUS | 百科,新闻 等  |     35G   | [Link](https://github.com/ZhuiyiTechnology/t5-pegasus) |
+| RoBERTa Tiny  |   |        | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-4_H-312_A-12.zip) |
+| RoBERTa Small |  |    | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-6_H-384_A-12.zip) |
+| SimBERT Tiny  |  |  | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-4_H-312_A-12.zip) |
+| SimBERT Small  | | |  [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-6_H-384_A-12.zip) |
+| SimBERT Base  |  |   | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-12_H-768_A-12.zip) |
+| RoBERTa<sup>+</sup> Tiny  | |    | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-4_H-312_A-12_K-104.zip) |
+| RoBERTa<sup>+</sup> Small |  |       | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-6_H-384_A-12_K-128.zip) |
+| WoBERT |   |     | [Link](https://github.com/ZhuiyiTechnology/WoBERT) |
+| T5 PEGASUS | |   | [Link](https://github.com/ZhuiyiTechnology/t5-pegasus) |
 
 
 ## __Citation (.bib)__ </br>
