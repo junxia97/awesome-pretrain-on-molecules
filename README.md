@@ -186,36 +186,36 @@ All Papers are sorted chronologically according to the year when they are publis
 | [MPG](https://pubmed.ncbi.nlm.nih.gov/33940598/)       | [MolGNet](https://pubmed.ncbi.nlm.nih.gov/33940598/)    | ZINC + ChEMBL (11M) | 53M|N/A|
 | [LP-Info](https://arxiv.org/pdf/2201.01702.pdf)    | 5-layer GIN     | ZINC15 (2M) + ChEMBL (456K)  | ~ 2M|[Link](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/transferLearning_MoleculeNet_PPI_LP)|
 | [SimGRACE](https://arxiv.org/pdf/2202.03104.pdf)  | 5-layer GIN       | ZINC15 (2M) + ChEMBL (456K)  | ~ 2M |[Link](https://github.com/junxia97/SimGRACE)|
-| [MolCLR]()     | GCN + GIN     | PubChem (10M)| N/A|[Link]()|
-| [DMP]()       | DeeperGCN + Transformer   | PubChem (110M) | 104.1 M|[Link]()|
-| [ChemRL-GEM]()  | GeoGNN     | ZINC15 (20M)| N/A                 |[Link]()|
-| [KCL]()     | GCN + KMPNN    | ZINC15 (250K)   | < 1M        |[Link]()|
-| [3D Infomax]()    | PNA   | QM9(50K) + GEOM-drugs(140K) + QMugs(620K)       | N/A                 |[Link]()|
-| [GraphMVP]()  | GIN + SchNet | GEOM (50k)             | ~ 2M  |[Link]()|
+| [MolCLR](https://arxiv.org/pdf/2102.10056.pdf)     | GCN + GIN     | PubChem (10M)| N/A|[Link](https://github.com/yuyangw/MolCLR/tree/master/ckpt)|
+| [DMP](https://arxiv.org/pdf/2106.10234.pdf)       | DeeperGCN + Transformer   | PubChem (110M) | 104.1 M|N/A|
+| [ChemRL-GEM](https://www.nature.com/articles/s42256-021-00438-4)  | GeoGNN     | ZINC15 (20M)| N/A                 |[Link](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/apps/pretrained_compound/ChemRL/GEM)|
+| [KCL](https://arxiv.org/pdf/2112.00544.pdf)     | GCN + KMPNN    | ZINC15 (250K)   | < 1M        |N/A|
+| [3D Infomax](https://arxiv.org/pdf/2110.04126.pdf)    | PNA   | QM9(50K) + GEOM-drugs(140K) + QMugs(620K)       | N/A |[Link](https://github.com/HannesStark/3DInfomax)|
+| [GraphMVP](https://openreview.net/pdf?id=xQUe1pOKPam)  | GIN + SchNet | GEOM (50k)             | ~ 2M  |[Link](https://github.com/chao1224/GraphMVP)|
 
 
 
 <a name="Datasets"></a>
 ## Pretraing Datasets
-| 名称           | 数据来源     | 训练数据大小 | 词表大小 | 模型大小 | 下载地址 |
-| :----------:  | :---------: | :---------:| :------: | :------: | :------: |
-| RoBERTa Tiny  | 百科,新闻 等  |     35G    | 21128    | 27MB | [下载链接](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-4_H-312_A-12.zip) |
-| RoBERTa Small | 百科,新闻 等  |     35G    | 21128  | 48MB  | [下载链接](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-6_H-384_A-12.zip) |
-| SimBERT Tiny  | [百度知道](http://zhidao.baidu.com/) | 2200万相似句组 | 13685  | 26MB  | [下载链接](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-4_H-312_A-12.zip) |
-| SimBERT Small  | [百度知道](http://zhidao.baidu.com/) | 2200万相似句组 | 13685  | 49MB  | [下载链接](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-6_H-384_A-12.zip) |
-| SimBERT Base  | [百度知道](http://zhidao.baidu.com/) | 2200万相似句组 | 13685  | 344MB  | [下载链接](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-12_H-768_A-12.zip) |
-| RoBERTa<sup>+</sup> Tiny  | 百科,新闻 等  |     35G    | 21128    | 35MB | [下载链接](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-4_H-312_A-12_K-104.zip) |
-| RoBERTa<sup>+</sup> Small | 百科,新闻 等  |     35G    | 21128  | 67MB  | [下载链接](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-6_H-384_A-12_K-128.zip) |
-| WoBERT | 百科,新闻 等  |     35G    | 33586/50000  | 400M  | [WoBERT项目](https://github.com/ZhuiyiTechnology/WoBERT) |
-| T5 PEGASUS | 百科,新闻 等  |     35G    | 50000  | 971M  | [T5 PEGASUS项目](https://github.com/ZhuiyiTechnology/t5-pegasus) |
+| Name           | Category  | Datasize | Download Link |
+| :----------:  | :---------: | :---------:| :------: |
+| RoBERTa Tiny  | 百科,新闻 等  |     35G     | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-4_H-312_A-12.zip) |
+| RoBERTa Small | 百科,新闻 等  |     35G    | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-6_H-384_A-12.zip) |
+| SimBERT Tiny  | [百度知道](http://zhidao.baidu.com/) | 2200万相似句组  | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-4_H-312_A-12.zip) |
+| SimBERT Small  | [百度知道](http://zhidao.baidu.com/) | 2200万相似句组 |  [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-6_H-384_A-12.zip) |
+| SimBERT Base  | [百度知道](http://zhidao.baidu.com/) | 2200万相似句组  | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-12_H-768_A-12.zip) |
+| RoBERTa<sup>+</sup> Tiny  | 百科,新闻 等  |     35G    | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-4_H-312_A-12_K-104.zip) |
+| RoBERTa<sup>+</sup> Small | 百科,新闻 等  |     35G    | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-6_H-384_A-12_K-128.zip) |
+| WoBERT | 百科,新闻 等  |     35G   | [Link](https://github.com/ZhuiyiTechnology/WoBERT) |
+| T5 PEGASUS | 百科,新闻 等  |     35G   | [Link](https://github.com/ZhuiyiTechnology/t5-pegasus) |
 
 
 ## __Citation (.bib)__ </br>
 ```
 @article{song2020learning,
 title={A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications},
-author={Song, Hwanjun and Kim, Minseok and Park, Dongmin and Shin, Yooju and Lee, Jae-Gil},
-journal={arXiv preprint arXiv:2007.08199},
-year={2020}}
+author={Xia, Jun and Zhu, Yanqiao and Du, Yuanqi and Stan Z., Li},
+journal={arXiv preprint arXiv:2022.02199},
+year={2022}}
 ```
 
