@@ -198,17 +198,14 @@ All Papers are sorted chronologically according to the year when they are publis
 
 <a name="Datasets"></a>
 ## Pretraing Datasets
-| Name           | Category  | Datasize | Download Link |
-| :----------:  | :---------: | :---------:| :------: |
-| RoBERTa Tiny  |   |        | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-4_H-312_A-12.zip) |
-| RoBERTa Small |  |    | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-6_H-384_A-12.zip) |
-| SimBERT Tiny  |  |  | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-4_H-312_A-12.zip) |
-| SimBERT Small  | | |  [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-6_H-384_A-12.zip) |
-| SimBERT Base  |  |   | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_simbert_L-12_H-768_A-12.zip) |
-| RoBERTa<sup>+</sup> Tiny  | |    | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-4_H-312_A-12_K-104.zip) |
-| RoBERTa<sup>+</sup> Small |  |       | [Link](https://open.zhuiyi.ai/releases/nlp/models/zhuiyi/chinese_roberta_L-6_H-384_A-12_K-128.zip) |
-| WoBERT |   |     | [Link](https://github.com/ZhuiyiTechnology/WoBERT) |
-| T5 PEGASUS | |   | [Link](https://github.com/ZhuiyiTechnology/t5-pegasus) |
+| Name           | Category  | Download Link |
+| :----------:  | :---------: | :------: |
+| ZINC  | Molecular Graph |    [Link](https://zinc15.docking.org/) |
+| CheMBL | Molecular Graph |   [Link](https://chembl.gitbook.io/chembl-interface-documentation/downloads) |
+| PubChem | Molecular Graph |  [Link](https://pubchem.ncbi.nlm.nih.gov) |
+| QM9  | Molecular Graph| [Link](http://quantum-machine.org/datasets/) |
+| QMugs  |Molecular Graph |   [Link](https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM) |
+| GEOM | Molecular Graph |  [Link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JNGTDF) |
 
 
 ## __Citation (.bib)__ </br>
