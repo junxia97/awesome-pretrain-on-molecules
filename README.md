@@ -1,6 +1,5 @@
 # A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)   ![GitHub stars](https://img.shields.io/github/stars/junxia97/awesome-pretrain-on-graphs?color=yellow)
-![GitHub forks](https://img.shields.io/github/forks/junxia97/awesome-pretrain-on-graphs?color=green&label=Fork)  ![visitors](https://visitor-badge.glitch.me/badge?page_id=junxia97.awesome-pretrain-on-graphs)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/junxia97/awesome-pretrain-on-graphs?color=yellow)  ![GitHub forks](https://img.shields.io/github/forks/junxia97/awesome-pretrain-on-graphs?color=green&label=Fork)  ![visitors](https://visitor-badge.glitch.me/badge?page_id=junxia97.awesome-pretrain-on-graphs)
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
 If your papers are missing or you have other requests, please contact to <xiajun@westlake.edu.cn>. We will update this repository and paper on a regular basis to maintain up-to-date.
@@ -220,4 +219,5 @@ year={2022}}
 ## Acknowledgements
 + [awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models)
 + [awesome-self-supervised-gnn](https://github.com/ChandlerBang/awesome-self-supervised-gnn)
++ [awesome-self-supervised-learning-for-graphs](https://github.com/SXKDZ/awesome-self-supervised-learning-for-graphs)
 
