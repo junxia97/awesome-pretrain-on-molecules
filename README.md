@@ -1,28 +1,27 @@
 # A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/JaydenXia-tech/awesome-self-supervised-learning-for-graphs?color=yellow)  ![GitHub forks](https://img.shields.io/github/forks/SXKDZ/awesome-self-supervised-learning-for-graphs?color=green&label=Fork)  ![visitors](https://visitor-badge.glitch.me/badge?page_id=SXKDZ.awesome-self-supervised-learning-for-graphs)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/junxia97/awesome-pretrain-on-graphs?color=yellow)  ![GitHub forks](https://img.shields.io/github/forks/SXKDZ/awesome-self-supervised-learning-for-graphs?color=green&label=Fork)  ![visitors](https://visitor-badge.glitch.me/badge?page_id=SXKDZ.awesome-self-supervised-learning-for-graphs)
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
 If your papers are missing or you have other requests, please contact to <xiajun@westlake.edu.cn>. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2022-2-10**
+> **Last update date: 2022-2-17**
 
 ## Contents
 - [Papers List](#papers)
-  <a name="prestrategies"></a>
-  + Pretraining Strategies
-  <a name="tunestrategies"></a>
-  + Tuning Strategies
-  <a name="others"></a>
-  + Applications
-  + Others
+  + [Pretraining Strategies](#prestrategies)
+  + [Tuning Strategies](#tunestrategies)
+  + [Applications](#Applications)
+  + [Others](#others)
 - [Open-Sourced Graph Pretrained Models](#PGMs)
-- [Pretraing Datasets](#Datasets)
+- [Pretraining Datasets](#Datasets)
 - [Citation](#Cite)
 - [Acknowledgement](#Acknow)
 
 <a name="papers"></a>
 ## Papers List
 All Papers are sorted chronologically according to the year when they are published or released below.
-### Year 2022
+<a name="prestrategies"></a>
+
+### Pretraining Strategies
 1. [WWW 2022] **SimGRACE: A Simple Framework for Graph Contrastive Learning without Data Augmentation** [[paper]](https://arxiv.org/pdf/2202.03104.pdf) [[code]](https://github.com/junxia97/SimGRACE)
 2. [WWW 2022] **Dual Space Graph Contrastive Learning** [[paper]](https://arxiv.org/pdf/2201.07409.pdf)
 4. [WSDM 2022]**Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data Augmentations** [[paper]](https://arxiv.org/abs/2201.01702) [[code]](https://github.com/Shen-Lab/GraphCL_Automated)
@@ -32,8 +31,21 @@ All Papers are sorted chronologically according to the year when they are publis
 10. [AAAI 2022] **Molecular Contrastive Learning with Chemical Element Knowledge Graph** [[paper]](https://arxiv.org/pdf/2112.00544.pdf)
 13. [AAAI 2022] **Deep Graph Clustering via Dual Correlation Reduction** [[paper]](https://arxiv.org/pdf/2112.14772)[[code]](https://github.com/yueliu1999/DCRN)
 14. [ICOIN 2022] **Adaptive Self-Supervised Graph Representation Learning** [[paper]](https://ieeexplore.ieee.org/abstract/document/9687176)
-15. [BioRxiv 2022] **Towards Effective and Generalizable Fine-tuning for Pre-trained Molecular Graph Models** (Tuning Strategies) [[paper]](https://www.biorxiv.org/content/10.1101/2022.02.03.479055v1)
-16. [arXiv 2022] **Graph Self-supervised Learning with Accurate Discrepancy Learning** [[paper]](https://arxiv.org/pdf/2202.02989.pdf)
+15. [arXiv 2022] **Graph Self-supervised Learning with Accurate Discrepancy Learning** [[paper]](https://arxiv.org/pdf/2202.02989.pdf)
+
+<a name="tunestrategies"></a>
+### Tuning Strategies
+1. [KDD 2021] **Adaptive Transfer Learning on Graph Neural Networks** [[paper]](https://arxiv.org/pdf/2107.08765.pdf)
+2. [BioRxiv 2022] **Towards Effective and Generalizable Fine-tuning for Pre-trained Molecular Graph Models**[[paper]](https://www.biorxiv.org/content/10.1101/2022.02.03.479055v1)
+
+
+<a name="Applications"></a>
+### Applications
+
+<a name="others"></a>
+
+### Others
+
 
 ## Year 2021
 1. [BIBM 2021] **SGAT: a Self-supervised Graph Attention Network for Biomedical Relation Extraction** [[paper]](https://ieeexplore.ieee.org/abstract/document/9669699)
@@ -100,7 +112,6 @@ All Papers are sorted chronologically according to the year when they are publis
 55. [arXiv 2021] **RRLFSOR: An Efficient Self-Supervised Learning Strategy of Graph Convolutional Networks** [[paper]](https://arxiv.org/ftp/arxiv/papers/2108/2108.07481.pdf)
 56. [KDD 2021] **MoCL: Data-driven Molecular Fingerprint via Knowledge-aware Contrastive Learning from Molecular Graph** [[paper]](https://dl.acm.org/doi/abs/10.1145/3447548.3467186) [[code]](https://github.com/illidanlab/MoCL-DK)
 57. [KDD 2021] **Contrastive Multi-View Multiplex Network Embedding with Applications to Robust Network Alignment** [[paper]](https://dl.acm.org/doi/abs/10.1145/3447548.3467227)
-58. [KDD 2021] **Adaptive Transfer Learning on Graph Neural Networks** [[paper]](https://arxiv.org/pdf/2107.08765.pdf)
 59. [arXiv 2021] **Group Contrastive Self-Supervised Learning on Graphs** [[paper]](https://arxiv.org/abs/2107.09787) 
 60. [arXiv 2021] **Multi-Level Graph Contrastive Learning** [[paper]](https://arxiv.org/abs/2107.02639)
 61. [Openreview 2021] **An Empirical Study of Graph Contrastive Learning** [[paper]](https://openreview.net/forum?id=fYxEnpY-__G)
