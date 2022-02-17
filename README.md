@@ -20,7 +20,6 @@ If your papers are missing or you have other requests, please contact to <xiajun
 
 <a name="papers"></a>
 ## Papers List
-All Papers are sorted chronologically according to the year when they are published or released below.
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
