@@ -216,4 +216,8 @@ author={Xia, Jun and Zhu, Yanqiao and Du, Yuanqi and Stan Z., Li},
 journal={arXiv preprint arXiv:2202.07893},
 year={2022}}
 ```
+<a name="Acknow"></a>
+## Acknowledgements
++ [awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models)
++ [awesome-self-supervised-gnn](https://github.com/ChandlerBang/awesome-self-supervised-gnn)
 
