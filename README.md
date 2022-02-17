@@ -124,7 +124,7 @@ If your papers are missing or you have other requests, please contact to <xiajun
 ### Tuning Strategies
 1. [KDD 2021] **Adaptive Transfer Learning on Graph Neural Networks** [[paper]](https://arxiv.org/pdf/2107.08765.pdf)
 3. [BioRxiv 2022] **Towards Effective and Generalizable Fine-tuning for Pre-trained Molecular Graph Models**[[paper]](https://www.biorxiv.org/content/10.1101/2022.02.03.479055v1)
-4. [Arxiv 2020] **COAD: Contrastive Pre-training with Adversarial Fine-tuning for Zero-shot Expert Linking** [[paper]](https://arxiv.org/abs/2012.11336) [[code]](https://github.com/BoChen-Daniel/Expert-Linking)
+4. [AAAI 2022] **CODE: Contrastive Pre-training with Adversarial Fine-tuning for Zero-shot Expert Linking** [[paper]](https://arxiv.org/abs/2012.11336) [[code]](https://github.com/BoChen-Daniel/Expert-Linking)
 
 
 <a name="Applications"></a>
