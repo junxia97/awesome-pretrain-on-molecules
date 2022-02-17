@@ -207,13 +207,13 @@ All Papers are sorted chronologically according to the year when they are publis
 | QMugs  |Molecular Graph |   [Link](https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM) |
 | GEOM | Molecular Graph |  [Link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JNGTDF) |
 
-
+<a name="Cite"></a>
 ## __Citation (.bib)__ </br>
 ```
 @article{song2020learning,
 title={A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications},
 author={Xia, Jun and Zhu, Yanqiao and Du, Yuanqi and Stan Z., Li},
-journal={arXiv preprint arXiv:2022.02199},
+journal={arXiv preprint arXiv:2202.07893},
 year={2022}}
 ```
 
