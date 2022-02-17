@@ -1,5 +1,5 @@
 # A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/junxia97/awesome-pretrain-on-graphs?color=yellow)  ![GitHub forks](https://img.shields.io/github/forks/SXKDZ/awesome-self-supervised-learning-for-graphs?color=green&label=Fork)  ![visitors](https://visitor-badge.glitch.me/badge?page_id=SXKDZ.awesome-self-supervised-learning-for-graphs)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/junxia97/awesome-pretrain-on-graphs?color=yellow)  ![GitHub forks](https://img.shields.io/github/forks/SXKDZ/awesome-pretrain-on-graphs?color=green&label=Fork)  ![visitors](https://visitor-badge.glitch.me/badge?page_id=junxia97.awesome-pretrain-on-graphs)
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
 If your papers are missing or you have other requests, please contact to <xiajun@westlake.edu.cn>. We will update this repository and paper on a regular basis to maintain up-to-date.
@@ -8,6 +8,8 @@ If your papers are missing or you have other requests, please contact to <xiajun
 ## Contents
 - [Papers List](#papers)
   + [Pretraining Strategies](#prestrategies)
+  + [Knowledge-Enriched Pretraining Strategies](#know)
+  + [Hard Negative Mining Strategies](#hard)
   + [Tuning Strategies](#tunestrategies)
   + [Applications](#Applications)
   + [Others](#others)
@@ -103,6 +105,7 @@ All Papers are sorted chronologically according to the year when they are publis
 38. [Arxiv 2019] **Heterogeneous Deep Graph Infomax** [[paper]](https://arxiv.org/abs/1911.08538) [[code]](https://github.com/YuxiangRen/Heterogeneous-Deep-Graph-Infomax)
 39. [ICLR 2019] **Deep Graph Informax.** [[paper]](https://arxiv.org/abs/1809.10341) [[code]](https://github.com/PetarV-/DGI)
 
+<a name="know"></a>
 ### Knowledge-Enriched Pretraining Strategies
 1. [Nature Machine Itelligence 2022] Geometry-enhanced molecular representation learning for property prediction[[paper]](https://www.nature.com/articles/s42256-021-00438-4)
 2. [ICLR 2022] **PRE-TRAINING MOLECULAR GRAPH REPRESENTATION WITH 3D GEOMETRY** [[paper]](https://wyliu.com/papers/GraphMVP.pdf) [[code]](https://github.com/chao1224/GraphMVP)
@@ -110,6 +113,7 @@ All Papers are sorted chronologically according to the year when they are publis
 4. [KDD 2021] **MoCL: Data-driven Molecular Fingerprint via Knowledge-aware Contrastive Learning from Molecular Graph** [[paper]](https://dl.acm.org/doi/abs/10.1145/3447548.3467186) [[code]](https://github.com/illidanlab/MoCL-DK)
 9. [arXiv 2021] **3D Infomax improves GNNs for Molecular Property Prediction** [[paper]](https://arxiv.org/abs/2110.04126v1) [[code]](https://github.com/HannesStark/3DInfomax)
 
+<a name="hard"></a>
 ### Hard Negative Mining Strategies
 1. [SDM 2022] **Structure-Enhanced Heterogeneous Graph Contrastive Learning** [[paper]](https://sxkdz.github.io/files/publications/SDM/STENCIL/STENCIL.pdf)
 3. [Signal Processing 2021] **Negative Sampling Strategies for Contrastive Self-Supervised Learning of Graph Representations** [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0165168421003479)
