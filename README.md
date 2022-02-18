@@ -129,7 +129,7 @@ If your papers are missing or you have other requests, please contact to <xiajun
 
 <a name="Applications"></a>
 ### Applications
-1. [Nature Communications] **Masked graph modeling for molecule generation** [[paper]](https://www.nature.com/articles/s41467-021-23415-2)
+1. [Nature Communications 2021] **Masked graph modeling for molecule generation** [[paper]](https://www.nature.com/articles/s41467-021-23415-2)
 1. [NPL 2022] **How Does Bayesian Noisy Self-Supervision Defend Graph Convolutional Networks?** [[paper]](https://link.springer.com/article/10.1007/s11063-022-10750-8)
 2. [arXiv 2022] **Self-supervised Graphs for Audio Representation Learning with Limited Labeled Data** [[paper]](https://arxiv.org/pdf/2202.00097.pdf)
 3. [arXiv 2022] **Link Prediction with Contextualized Self-Supervision** [[paper]](https://arxiv.org/pdf/2201.10069.pdf)
