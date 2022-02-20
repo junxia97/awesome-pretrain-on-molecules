@@ -163,6 +163,7 @@ If your papers are missing or you have other requests, please contact to <xiajun
 <a name="others"></a>
 
 ### Others
+1. [arXiv 2022] **A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications** [[paper]](https://arxiv.org/abs/2202.07893)
 1. [NeurIPS 2021 datasets and benchmark track] **An Empirical Study of Graph Contrastive Learning** [[paper]](https://openreview.net/forum?id=fYxEnpY-__G)
 2. [arXiv 2021] **Evaluating Modules in Graph Contrastive Learning** [[paper]](https://arxiv.org/abs/2106.08171) [[code]](https://github.com/thunlp/OpenGCL)
 3. [arXiv 2021] **Graph Self-Supervised Learning: A Survey** [[paper]](https://arxiv.org/abs/2103.00111)
