@@ -210,7 +210,7 @@ If your papers are missing or you have other requests, please contact to <xiajun
 <a name="Cite"></a>
 ## __Citation (.bib)__ </br>
 ```
-@article{song2020learning,
+@article{xia2022survey,
 title={A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications},
 author={Xia, Jun and Zhu, Yanqiao and Du, Yuanqi and Stan Z., Li},
 journal={arXiv preprint arXiv:2202.07893},
