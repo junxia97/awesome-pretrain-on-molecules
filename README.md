@@ -2,7 +2,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/junxia97/awesome-pretrain-on-graphs?color=yellow)  ![GitHub forks](https://img.shields.io/github/forks/junxia97/awesome-pretrain-on-graphs?color=green&label=Fork)  ![visitors](https://visitor-badge.glitch.me/badge?page_id=junxia97.awesome-pretrain-on-graphs)
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
-If your papers are missing or you have other requests, please contact to <xiajun@westlake.edu.cn>. We will update this repository and paper on a regular basis to maintain up-to-date.
+If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
 > **Last update date: 2022-2-21**
 
 ## Contents
