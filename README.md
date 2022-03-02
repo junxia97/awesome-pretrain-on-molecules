@@ -3,7 +3,7 @@
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
 If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2022-2-24**
+> **Last update date: 2022-3-2**
 
 ## Contents
 - [Papers List](#papers)
@@ -26,13 +26,14 @@ If you find there are other resources with this topic missing, feel free to let 
 1. [WWW 2022] **SimGRACE: A Simple Framework for Graph Contrastive Learning without Data Augmentation** [[paper]](https://arxiv.org/pdf/2202.03104.pdf) [[code]](https://github.com/junxia97/SimGRACE)
 2. [WWW 2022] **Dual Space Graph Contrastive Learning** [[paper]](https://arxiv.org/pdf/2201.07409.pdf)
 3. [WWW 2022] **Adversarial Graph Contrastive Learning with Information Regularization** [[paper]](https://arxiv.org/pdf/2202.06491.pdf)
-4. [TKDE 2022] **CCGL: Contrastive Cascade Graph Learning** [[paper]](https://arxiv.org/pdf/2107.12576.pdf)[[code]](https://arxiv.org/pdf/2107.12576.pdf)
-5. [BIBM 2021] **Molecular Graph Contrastive Learning with Parameterized Explainable Augmentations** [[paper]](https://www.biorxiv.org/content/10.1101/2021.12.03.471150v1)
-6. [WSDM 2022]**Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data Augmentations** [[paper]](https://arxiv.org/abs/2201.01702) [[code]](https://github.com/Shen-Lab/GraphCL_Automated)
-7. [SDM 2022] **Structure-Enhanced Heterogeneous Graph Contrastive Learning** [[paper]](https://sxkdz.github.io/files/publications/SDM/STENCIL/STENCIL.pdf)
-8. [AAAI 2022] **GeomGCL: Geometric Graph Contrastive Learning for Molecular Property Prediction** [[paper]](https://arxiv.org/pdf/2109.11730.pdf)
-9. [AAAI 2022] **Self-supervised Graph Neural Networks via Diverse and Interactive Message Passing** [[paper]](https://yangliang.github.io/pdf/aaai22.pdf)
-10. [AAAI 2022] **Augmentation-Free Self-Supervised Learning on Graphs** [[paper]](https://arxiv.org/pdf/2112.02472.pdf)[[code]](https://github.com/Namkyeong/AFGRL)
+4. [WWW 2022] **The Role of Augmentations in Graph Contrastive Learning: Current Methodological Flaws & Improved Practices** [[paper]](https://arxiv.org/pdf/2111.03220.pdf)
+5. [TKDE 2022] **CCGL: Contrastive Cascade Graph Learning** [[paper]](https://arxiv.org/pdf/2107.12576.pdf)[[code]](https://arxiv.org/pdf/2107.12576.pdf)
+6. [BIBM 2021] **Molecular Graph Contrastive Learning with Parameterized Explainable Augmentations** [[paper]](https://www.biorxiv.org/content/10.1101/2021.12.03.471150v1)
+7. [WSDM 2022]**Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data Augmentations** [[paper]](https://arxiv.org/abs/2201.01702) [[code]](https://github.com/Shen-Lab/GraphCL_Automated)
+8. [SDM 2022] **Structure-Enhanced Heterogeneous Graph Contrastive Learning** [[paper]](https://sxkdz.github.io/files/publications/SDM/STENCIL/STENCIL.pdf)
+9. [AAAI 2022] **GeomGCL: Geometric Graph Contrastive Learning for Molecular Property Prediction** [[paper]](https://arxiv.org/pdf/2109.11730.pdf)
+10. [AAAI 2022] **Self-supervised Graph Neural Networks via Diverse and Interactive Message Passing** [[paper]](https://yangliang.github.io/pdf/aaai22.pdf)
+11. [AAAI 2022] **Augmentation-Free Self-Supervised Learning on Graphs** [[paper]](https://arxiv.org/pdf/2112.02472.pdf)[[code]](https://github.com/Namkyeong/AFGRL)
 13. [AAAI 2022] **Deep Graph Clustering via Dual Correlation Reduction** [[paper]](https://arxiv.org/pdf/2112.14772)[[code]](https://github.com/yueliu1999/DCRN)
 14. [ICOIN 2022] **Adaptive Self-Supervised Graph Representation Learning** [[paper]](https://ieeexplore.ieee.org/abstract/document/9687176)
 15. [arXiv 2022] **Graph Masked Autoencoder** [[paper]](https://arxiv.org/abs/2202.08391)
