@@ -3,7 +3,7 @@
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
 If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2022-3-2**
+> **Last update date: 2022-3-7**
 
 ## Contents
 - [Papers List](#papers)
@@ -23,6 +23,7 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [Nature Machine Intelligence 2022]  **Molecular contrastive learning of representations via graph neural networks** [[paper]](https://www.nature.com/articles/s42256-022-00447-x)
 1. [WWW 2022] **SimGRACE: A Simple Framework for Graph Contrastive Learning without Data Augmentation** [[paper]](https://arxiv.org/pdf/2202.03104.pdf) [[code]](https://github.com/junxia97/SimGRACE)
 2. [WWW 2022] **Dual Space Graph Contrastive Learning** [[paper]](https://arxiv.org/pdf/2201.07409.pdf)
 3. [WWW 2022] **Adversarial Graph Contrastive Learning with Information Regularization** [[paper]](https://arxiv.org/pdf/2202.06491.pdf)
