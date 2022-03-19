@@ -23,6 +23,7 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [AAAI 2022] **Simple Unsupervised Graph Representation Learning**[[paper]](https://www.aaai.org/AAAI22Papers/AAAI-3999.MoY.pdf)
 1. [SDM 2022] **Neural Graph Matching for Pre-training Graph Neural Networks**[[paper]](https://arxiv.org/pdf/2203.01597.pdf)
 1. [Nature Machine Intelligence 2022]  **Molecular contrastive learning of representations via graph neural networks** [[paper]](https://www.nature.com/articles/s42256-022-00447-x)
 1. [WWW 2022] **SimGRACE: A Simple Framework for Graph Contrastive Learning without Data Augmentation** [[paper]](https://arxiv.org/pdf/2202.03104.pdf) [[code]](https://github.com/junxia97/SimGRACE)
