@@ -14,7 +14,7 @@ If you find there are other resources with this topic missing, feel free to let 
   + [Tuning Strategies](#tunestrategies)
   + [Applications](#Applications)
   + [Others](#others)
-- [Open-Sourced Graph Pretrained Models](#PGMs)
+- [Open-Sourced Pretrained Graph Models](#PGMs)
 - [Pretraining Datasets](#Datasets)
 - [Citation](#Cite)
 - [Acknowledgement](#Acknow)
