@@ -4,7 +4,7 @@
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
 If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2022-3-19**
+> **Last update date: 2022-3-27**
 
 ## Contents
 - [Papers List](#papers)
@@ -137,8 +137,7 @@ If you find there are other resources with this topic missing, feel free to let 
 1. [KDD 2021] **Adaptive Transfer Learning on Graph Neural Networks** [[paper]](https://arxiv.org/pdf/2107.08765.pdf)
 3. [BioRxiv 2022] **Towards Effective and Generalizable Fine-tuning for Pre-trained Molecular Graph Models**[[paper]](https://www.biorxiv.org/content/10.1101/2022.02.03.479055v1)
 4. [AAAI 2022] **CODE: Contrastive Pre-training with Adversarial Fine-tuning for Zero-shot Expert Linking** [[paper]](https://arxiv.org/abs/2012.11336) [[code]](https://github.com/BoChen-Daniel/Expert-Linking)
-
-
+5 [Arxiv 2022]**Fine-Tuning Graph Neural Networks via Graph Topology induced Optimal Transport** [[paper]](https://arxiv.org/pdf/2203.10453.pdf) 
 <a name="Applications"></a>
 ### Applications
 1. [Nature Communications 2021] **Masked graph modeling for molecule generation** [[paper]](https://www.nature.com/articles/s41467-021-23415-2)
