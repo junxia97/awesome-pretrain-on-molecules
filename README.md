@@ -24,6 +24,9 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [Arxiv 2022] **Unsupervised Heterophilous Network Embedding via r-Ego Network Discrimination** [[paper]](https://arxiv.org/abs/2203.10866)
+1. [CVPR 2022] **Node Representation Learning in Graph via Node-to-Neighbourhood Mutual Information Maximization**[[paper]](https://arxiv.org/abs/2203.12265)
+1. [Arxiv 2022] **GraphCoCo: Graph Complementary Contrastive Learning**[[paper]](https://arxiv.org/abs/2203.12821)
 1. [AAAI 2022] **Simple Unsupervised Graph Representation Learning**[[paper]](https://www.aaai.org/AAAI22Papers/AAAI-3999.MoY.pdf)
 1. [SDM 2022] **Neural Graph Matching for Pre-training Graph Neural Networks**[[paper]](https://arxiv.org/pdf/2203.01597.pdf)
 1. [Nature Machine Intelligence 2022]  **Molecular contrastive learning of representations via graph neural networks** [[paper]](https://www.nature.com/articles/s42256-022-00447-x)
@@ -140,6 +143,7 @@ If you find there are other resources with this topic missing, feel free to let 
 5 [Arxiv 2022]**Fine-Tuning Graph Neural Networks via Graph Topology induced Optimal Transport** [[paper]](https://arxiv.org/pdf/2203.10453.pdf) 
 <a name="Applications"></a>
 ### Applications
+1. [Arxiv 22] **Protein Representation Learning by Geometric Structure Pretraining** [[paper]](https://arxiv.org/abs/2203.06125)
 1. [Nature Communications 2021] **Masked graph modeling for molecule generation** [[paper]](https://www.nature.com/articles/s41467-021-23415-2)
 1. [NPL 2022] **How Does Bayesian Noisy Self-Supervision Defend Graph Convolutional Networks?** [[paper]](https://link.springer.com/article/10.1007/s11063-022-10750-8)
 2. [arXiv 2022] **Self-supervised Graphs for Audio Representation Learning with Limited Labeled Data** [[paper]](https://arxiv.org/pdf/2202.00097.pdf)
