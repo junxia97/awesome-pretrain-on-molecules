@@ -4,7 +4,7 @@
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
 If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2022-4-5**
+> **Last update date: 2022-4-15**
 
 ## Contents
 - [Papers List](#papers)
@@ -144,6 +144,7 @@ If you find there are other resources with this topic missing, feel free to let 
 5 [Arxiv 2022]**Fine-Tuning Graph Neural Networks via Graph Topology induced Optimal Transport** [[paper]](https://arxiv.org/pdf/2203.10453.pdf) 
 <a name="Applications"></a>
 ### Applications
+1. [SIGIR 2022] **Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation**[[paper]](https://www.researchgate.net/profile/Junliang-Yu/publication/359788233_Are_Graph_Augmentations_Necessary_Simple_Graph_Contrastive_Learning_for_Recommendation/links/624e802ad726197cfd426f81/Are-Graph-Augmentations-Necessary-Simple-Graph-Contrastive-Learning-for-Recommendation.pdf)
 1. [Arxiv 22] **Protein Representation Learning by Geometric Structure Pretraining** [[paper]](https://arxiv.org/abs/2203.06125)
 1. [Nature Communications 2021] **Masked graph modeling for molecule generation** [[paper]](https://www.nature.com/articles/s41467-021-23415-2)
 1. [NPL 2022] **How Does Bayesian Noisy Self-Supervision Defend Graph Convolutional Networks?** [[paper]](https://link.springer.com/article/10.1007/s11063-022-10750-8)
