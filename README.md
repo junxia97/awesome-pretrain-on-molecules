@@ -4,7 +4,7 @@
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
 If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2022-4-15**
+> **Last update date: 2022-4-16**
 
 ## Contents
 - [Papers List](#papers)
@@ -24,6 +24,7 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [Arxiv 2022] **Augmentation-Free Graph Contrastive Learning** [[paper]](https://arxiv.org/pdf/2204.04874.pdf)
 1. [Arxiv 2022] **A Simple Yet Effective Pretraining Strategy for Graph Few-shot Learning** [[paper]](https://arxiv.org/abs/2203.15936)
 1. [Arxiv 2022] **Unsupervised Heterophilous Network Embedding via r-Ego Network Discrimination** [[paper]](https://arxiv.org/abs/2203.10866)
 1. [CVPR 2022] **Node Representation Learning in Graph via Node-to-Neighbourhood Mutual Information Maximization**[[paper]](https://arxiv.org/abs/2203.12265)
