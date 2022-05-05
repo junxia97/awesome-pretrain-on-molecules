@@ -24,6 +24,7 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [WWW 2022 Workshop] **A Content-First Benchmark for Self-Supervised Graph Representation Learning** [[paper]](https://graph-learning-benchmarks.github.io/assets/papers/glb2022/A_Content_First_Benchmark_for_Self_Supervised_Graph_Representation_Learning.pdf)
 1. [Arxiv 2022] **SCGC: Self-Supervised Contrastive Graph Clustering** [[paper]](https://arxiv.org/abs/2204.12656)
 1. [ICASSP 2022] **Graph Fine-Grained Contrastive Representation Learning** [[paper]](https://ieeexplore.ieee.org/abstract/document/9746085)
 1. [TCYB 2022] **Multiview Deep Graph Infomax to Achieve Unsupervised Graph Embedding** [[paper]](https://ieeexplore.ieee.org/abstract/document/9758652/)
