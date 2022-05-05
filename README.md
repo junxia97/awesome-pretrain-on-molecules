@@ -4,7 +4,7 @@
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
 If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2022-4-30**
+> **Last update date: 2022-5-5**
 
 ## Contents
 - [Papers List](#papers)
@@ -24,6 +24,8 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [Arxiv 2022] **SCGC: Self-Supervised Contrastive Graph Clustering** [[paper]](https://arxiv.org/abs/2204.12656)
+1. [ICASSP 2022] **Graph Fine-Grained Contrastive Representation Learning** [[paper]](https://ieeexplore.ieee.org/abstract/document/9746085)
 1. [TCYB 2022] **Multiview Deep Graph Infomax to Achieve Unsupervised Graph Embedding** [[paper]](https://ieeexplore.ieee.org/abstract/document/9758652/)
 1. [Arxiv 2022] **Augmentation-Free Graph Contrastive Learning** [[paper]](https://arxiv.org/pdf/2204.04874.pdf)
 1. [Arxiv 2022] **A Simple Yet Effective Pretraining Strategy for Graph Few-shot Learning** [[paper]](https://arxiv.org/abs/2203.15936)
