@@ -4,7 +4,7 @@
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
 If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2022-5-5**
+> **Last update date: 2022-5-16**
 
 ## Contents
 - [Papers List](#papers)
@@ -24,6 +24,7 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [ICML 2022]**ProGCL: Rethinking Hard Negative Mining in Graph Contrastive Learning**[[paper]](coming soon)[[code]](https://github.com/junxia97/ProGCL)
 1. [WWW 2022 Workshop] **A Content-First Benchmark for Self-Supervised Graph Representation Learning** [[paper]](https://graph-learning-benchmarks.github.io/assets/papers/glb2022/A_Content_First_Benchmark_for_Self_Supervised_Graph_Representation_Learning.pdf)
 1. [Arxiv 2022] **SCGC: Self-Supervised Contrastive Graph Clustering** [[paper]](https://arxiv.org/abs/2204.12656)
 1. [ICASSP 2022] **Graph Fine-Grained Contrastive Representation Learning** [[paper]](https://ieeexplore.ieee.org/abstract/document/9746085)
