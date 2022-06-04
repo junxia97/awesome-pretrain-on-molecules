@@ -24,7 +24,7 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
-1. [ICML 2022]**ProGCL: Rethinking Hard Negative Mining in Graph Contrastive Learning**[[paper]](https://arxiv.org/abs/2110.02027v2)[[code(coming soon)]](https://github.com/junxia97/ProGCL)
+1. [ICML 2022]**ProGCL: Rethinking Hard Negative Mining in Graph Contrastive Learning**[[paper]](https://arxiv.org/abs/2110.02027v2)[[code]](https://github.com/junxia97/ProGCL)
 2. [ArXiv 2022]**Triangular Contrastive Learning on Molecular Graphs**[[paper]](https://arxiv.org/abs/2205.13279)
 3. [ArXiv 2022]**ImGCL: Revisiting Graph Contrastive Learning on Imbalanced Node Classification**[[paper]](https://arxiv.org/abs/2205.11332)
 4. [KDD 2022]**GraphMAE: Self-Supervised Masked Graph Autoencoders**[[paper]](https://arxiv.org/abs/2205.10803)
