@@ -247,6 +247,15 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="Cite"></a>
 ## __Citation (.bib)__ </br>
 ```
+@inproceedings{
+xia2022pretraining,
+title={Pre-training Graph Neural Networks for Molecular Representations: Retrospect and Prospect},
+author={Jun Xia and Yanqiao Zhu and Yuanqi Du and Stan Z. Li},
+booktitle={ICML 2022 2nd AI for Science Workshop},
+year={2022},
+url={https://openreview.net/forum?id=dhXLkrY2Nj3}
+}
+
 @article{xia2022survey,
 title={A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications},
 author={Xia, Jun and Zhu, Yanqiao and Du, Yuanqi and Stan Z., Li},
