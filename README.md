@@ -4,7 +4,7 @@
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
 If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2022-6-4**
+> **Last update date: 2022-7-2**
 
 ## Contents
 - [Papers List](#papers)
@@ -24,7 +24,16 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
-1. [ICML 2022]**ProGCL: Rethinking Hard Negative Mining in Graph Contrastive Learning**[[paper]](https://arxiv.org/abs/2110.02027v2)[[code]](https://github.com/junxia97/ProGCL)
+1. [ICML 2022]**ProGCL: Rethinking Hard Negative Mining in Graph Contrastive Learning**[[paper]](https://arxiv.org/abs/2110.02027)[[code]](https://github.com/junxia97/ProGCL)
+1. [ICML 2022]**Let Invariant Rationale Discovery Inspire Graph Contrastive Learning**[[paper]](https://arxiv.org/abs/2206.07869)
+1. [TNNLS 2022]**CLEAR: Cluster-Enhanced Contrast for Self-Supervised Graph Representation Learning**[[paper]](https://ieeexplore.ieee.org/abstract/document/9791433)
+1. [Information Science]**A new self-supervised task on graphs: Geodesic distance prediction**[[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0020025522006375)
+1. [ArXiv 2022]**Hard Negative Sampling Strategies for Contrastive Representation Learning**[[paper]](https://arxiv.org/abs/2206.01197)
+1. [ArXiv 2022]**Rethinking and Scaling Up Graph Contrastive Learning: An Extremely Efficient Approach with Group Discrimination**[[paper]](https://arxiv.org/abs/2206.01535)
+1. [ArXiv 2022]**KPGT: Knowledge-Guided Pre-training of Graph Transformer for Molecular Property Prediction**[[paper]](https://arxiv.org/abs/2206.03364)
+1. [ArXiv 2022]**COSTA: Covariance-Preserving Feature Augmentation for Graph Contrastive Learning**[[paper]](https://arxiv.org/abs/2206.04726)
+1. [ArXiv 2022]**Evaluating Self-Supervised Learning for Molecular Graph Embeddings**[[paper]](https://arxiv.org/abs/2206.08005)
+1. [ArXiv 2022]**I'm Me, We're Us, and I'm Us: Tri-directional Contrastive Learning on Hypergraphs**[[paper]](https://arxiv.org/abs/2206.04739)
 2. [ArXiv 2022]**Triangular Contrastive Learning on Molecular Graphs**[[paper]](https://arxiv.org/abs/2205.13279)
 3. [ArXiv 2022]**ImGCL: Revisiting Graph Contrastive Learning on Imbalanced Node Classification**[[paper]](https://arxiv.org/abs/2205.11332)
 4. [KDD 2022]**GraphMAE: Self-Supervised Masked Graph Autoencoders**[[paper]](https://arxiv.org/abs/2205.10803)
