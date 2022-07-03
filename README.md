@@ -1,4 +1,4 @@
-# A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications (Ai4Science@ICML 2022)
+# Pre-training Graph Neural Networks for Molecular Representations: Retrospect and Prospect (Ai4Science Workshop, ICML 2022)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/junxia97/awesome-pretrain-on-graphs?color=yellow)  ![GitHub forks](https://img.shields.io/github/forks/junxia97/awesome-pretrain-on-graphs?color=green&label=Fork) 
 <!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=junxia97.awesome-pretrain-on-graphs) -->
 
@@ -26,6 +26,7 @@ If you find there are other resources with this topic missing, feel free to let 
 ### Pretraining Strategies
 1. [ICML 2022]**ProGCL: Rethinking Hard Negative Mining in Graph Contrastive Learning**[[paper]](https://arxiv.org/abs/2110.02027)[[code]](https://github.com/junxia97/ProGCL)
 1. [ICML 2022]**Let Invariant Rationale Discovery Inspire Graph Contrastive Learning**[[paper]](https://arxiv.org/abs/2206.07869)
+1. [Ai4Science@ICML 2022]**Pre-training Graph Neural Networks for Molecular Representations: Retrospect and Prospect**[[paper]](https://openreview.net/forum?id=dhXLkrY2Nj3&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2022%2FWorkshop%2FAI4Science%2FAuthors%23your-submissions))
 1. [TNNLS 2022]**CLEAR: Cluster-Enhanced Contrast for Self-Supervised Graph Representation Learning**[[paper]](https://ieeexplore.ieee.org/abstract/document/9791433)
 1. [Information Science]**A new self-supervised task on graphs: Geodesic distance prediction**[[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0020025522006375)
 1. [ArXiv 2022]**Hard Negative Sampling Strategies for Contrastive Representation Learning**[[paper]](https://arxiv.org/abs/2206.01197)
