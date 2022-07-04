@@ -4,7 +4,7 @@
 
 This is a repository to help all readers who are interested in pre-training on graphs. 
 If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2022-7-3**
+> **Last update date: 2022-7-4**
 
 ## Contents
 - [Papers List](#papers)
@@ -24,6 +24,7 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [BioArXiv]**PanGu Drug Model: Learn a Molecule Like a Human**[[paper]](https://www.biorxiv.org/content/10.1101/2022.03.31.485886v1.full)
 1. [ICML 2022]**ProGCL: Rethinking Hard Negative Mining in Graph Contrastive Learning**[[paper]](https://arxiv.org/abs/2110.02027)[[code]](https://github.com/junxia97/ProGCL)
 1. [ICML 2022]**Let Invariant Rationale Discovery Inspire Graph Contrastive Learning**[[paper]](https://arxiv.org/abs/2206.07869)
 1. [Ai4Science@ICML 2022]**Pre-training Graph Neural Networks for Molecular Representations: Retrospect and Prospect**[[paper]](https://openreview.net/forum?id=dhXLkrY2Nj3&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2022%2FWorkshop%2FAI4Science%2FAuthors%23your-submissions))
