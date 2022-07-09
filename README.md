@@ -154,7 +154,7 @@ If you find there are other resources with this topic missing, feel free to let 
 3. [AAAI 2022] **Molecular Contrastive Learning with Chemical Element Knowledge Graph** [[paper]](https://arxiv.org/pdf/2112.00544.pdf)
 4. [KDD 2021] **MoCL: Data-driven Molecular Fingerprint via Knowledge-aware Contrastive Learning from Molecular Graph** [[paper]](https://dl.acm.org/doi/abs/10.1145/3447548.3467186) [[code]](https://github.com/illidanlab/MoCL-DK)
 9. [arXiv 2021] **3D Infomax improves GNNs for Molecular Property Prediction** [[paper]](https://arxiv.org/abs/2110.04126v1) [[code]](https://github.com/HannesStark/3DInfomax)
-10. [ICLR 2022] **Chemical-Reaction-Aware Molecule Representation Learning** [[paper]](https://openreview.net/forum?id=6sh3pIzKS-)
+10. [ICLR 2022] **Chemical-Reaction-Aware Molecule Representation Learning** [[paper]](https://openreview.net/forum?id=6sh3pIzKS-)[[code]](https://github.com/hwwang55/MolR)
 
 <a name="hard"></a>
 ### Hard Negative Mining Strategies
