@@ -24,6 +24,7 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [Bioinformatics]**Multidrug Representation Learning Based on Pretraining Model and Molecular Graph for Drug Interaction and Combination Prediction**[[Paper]](https://pubmed.ncbi.nlm.nih.gov/35904544/)
 1. [BioArXiv]**PanGu Drug Model: Learn a Molecule Like a Human**[[paper]](https://www.biorxiv.org/content/10.1101/2022.03.31.485886v1.full)
 1. [ChemRxiv]**Uni-Mol: A Universal 3D Molecular Representation Learning Framework**[[paper]](https://chemrxiv.org/engage/chemrxiv/article-details/628e5b4d5d948517f5ce6d72)
 1. [ICML 2022]**ProGCL: Rethinking Hard Negative Mining in Graph Contrastive Learning**[[paper]](https://arxiv.org/abs/2110.02027)[[code]](https://github.com/junxia97/ProGCL)
