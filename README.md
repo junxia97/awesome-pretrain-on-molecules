@@ -24,6 +24,7 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [ECCV 2022] **Generative Subgraph Contrast for Self-Supervised Graph Representation Learning**[[Paper]](https://arxiv.org/abs/2207.11996)
 1. [ArXiv] **Analyzing Data-Centric Properties for Contrastive Learning on Graphs**[[Paper]](https://arxiv.org/abs/2208.02810)
 1. [ArXiv] **Generative Subgraph Contrast for Self-Supervised Graph Representation Learning**[[Paper]](https://arxiv.org/abs/2207.11996)
 1. [Bioinformatics]**Multidrug Representation Learning Based on Pretraining Model and Molecular Graph for Drug Interaction and Combination Prediction**[[Paper]](https://pubmed.ncbi.nlm.nih.gov/35904544/)
