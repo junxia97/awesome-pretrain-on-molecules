@@ -1,10 +1,10 @@
-# Pre-training Graph Neural Networks for Molecular Representations: Retrospect and Prospect (Ai4Science Workshop, ICML 2022)
+# A Systematic Survey of Molecular Pre-trained Models
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/junxia97/awesome-pretrain-on-graphs?color=yellow)  ![GitHub forks](https://img.shields.io/github/forks/junxia97/awesome-pretrain-on-graphs?color=green&label=Fork) 
 <!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=junxia97.awesome-pretrain-on-graphs) -->
 
-This is a repository to help all readers who are interested in pre-training on graphs. 
+This is a repository to help all readers who are interested in pre-training on molecules. 
 If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2022-08-10**
+> **Last update date: 2022-10-24**
 
 ## Contents
 - [Papers List](#papers)
@@ -14,7 +14,7 @@ If you find there are other resources with this topic missing, feel free to let 
   + [Tuning Strategies](#tunestrategies)
   + [Applications](#Applications)
   + [Others](#others)
-- [Open-Sourced Pretrained Graph Models](#PGMs)
+- [Open-Sourced Molecular Pretrained Models](#MPMs)
 - [Pretraining Datasets](#Datasets)
 - [Citation](#Cite)
 - [Acknowledgement](#Acknow)
@@ -24,6 +24,9 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [EMNLP 2022]**Translation between Molecules and Natural Language**[[Paper]](https://arxiv.org/abs/2204.11817)[[Code]](https://github.com/blender-nlp/MolT5)
+1. [JCIM]**MolGPT: Molecular Generation Using a Transformer-Decoder Model**[[Paper]](https://arxiv.org/abs/2204.11817)
+1. [Bioinformatics]**MICER: a pre-trained encoder–decoder architecture for molecular image captioning**[[Paper]](https://academic.oup.com/bioinformatics/article-abstract/38/19/4562/6656348?redirectedFrom=fulltext&login=false)
 1. [ECCV 2022] **Generative Subgraph Contrast for Self-Supervised Graph Representation Learning**[[Paper]](https://arxiv.org/abs/2207.11996)
 1. [ArXiv] **Analyzing Data-Centric Properties for Contrastive Learning on Graphs**[[Paper]](https://arxiv.org/abs/2208.02810)
 1. [ArXiv] **Generative Subgraph Contrast for Self-Supervised Graph Representation Learning**[[Paper]](https://arxiv.org/abs/2207.11996)
