@@ -264,25 +264,6 @@ If you find there are other resources with this topic missing, feel free to let 
 | QMugs  |Molecular Graph |   [Link](https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM) |
 | GEOM | Molecular Graph |  [Link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JNGTDF) |
 
-<a name="Cite"></a>
-## __Citation (.bib)__ </br>
-```
-@inproceedings{
-xia2022pretraining,
-title={Pre-training Graph Neural Networks for Molecular Representations: Retrospect and Prospect},
-author={Jun Xia and Yanqiao Zhu and Yuanqi Du and Stan Z. Li},
-booktitle={ICML 2022 2nd AI for Science Workshop},
-year={2022},
-url={https://openreview.net/forum?id=dhXLkrY2Nj3}
-}
-
-@article{xia2022survey,
-title={A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications},
-author={Xia, Jun and Zhu, Yanqiao and Du, Yuanqi and Stan Z., Li},
-journal={arXiv preprint arXiv:2202.07893},
-year={2022}}
-```
-<a name="Acknow"></a>
 ## Acknowledgements
 + [awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models)
 + [awesome-self-supervised-gnn](https://github.com/ChandlerBang/awesome-self-supervised-gnn)
