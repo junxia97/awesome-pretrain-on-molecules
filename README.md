@@ -4,7 +4,7 @@
 
 This is a repository to help all readers who are interested in pre-training on molecules. 
 If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2022-10-24**
+> **Last update date: 2023-1-11**
 
 ## Contents
 - [Papers List](#papers)
@@ -24,6 +24,11 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [JMGM 2023]**MolRoPE-BERT: An enhanced molecular representation with Rotary Position Embedding for molecular property prediction**[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S1093326322002236)[[Code]]()
+1. [Nature Machine Intelligence 2022]**Accurate prediction of molecular properties and drug targets using a self-supervised image representation learning framework.**[[Paper]](https://www.nature.com/articles/s42256-022-00557-6)[[Code]](https://github.com/HongxinXiang/ImageMol)
+1. [AAAI 2023]**Energy-motivated equivariant pretraining for 3d molecular graphs**[[Paper]](https://arxiv.org/abs/2207.08824)[[Code]](https://github.com/jiaor17/3D-EMGP)
+1. [Openreview 2022]**MolBART: Generative Masked Language Models for Molecular Representations**[[Paper]](https://openreview.net/forum?id=-4HJSA3Y2vg)[[Code]](https://github.com/MolecularAI/MolBART#2)
+1. [KDD 2022]**KPGT:knowledge-guided pre-training of graph transformer for molecular property prediction.**[[Paper]](https://arxiv.org/abs/2206.03364)[[Code]](https://github.com/lihan97/KPGT)
 1. [EMNLP 2022]**Translation between Molecules and Natural Language**[[Paper]](https://arxiv.org/abs/2204.11817)[[Code]](https://github.com/blender-nlp/MolT5)
 1. [JCIM]**MolGPT: Molecular Generation Using a Transformer-Decoder Model**[[Paper]](https://arxiv.org/abs/2204.11817)
 1. [Bioinformatics]**MICER: a pre-trained encoder–decoder architecture for molecular image captioning**[[Paper]](https://academic.oup.com/bioinformatics/article-abstract/38/19/4562/6656348?redirectedFrom=fulltext&login=false)
