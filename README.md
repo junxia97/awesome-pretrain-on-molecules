@@ -16,7 +16,7 @@ If you find there are other resources with this topic missing, feel free to let 
   + [Others](#others)
 - [Open-Sourced Molecular Pretrained Models](#MPMs)
 - [Pretraining Datasets](#Datasets)
-- [Citation](#Cite)
+- [Citation](#cite)
 - [Acknowledgement](#Acknow)
 
 <a name="papers"></a>
@@ -263,7 +263,6 @@ If you find there are other resources with this topic missing, feel free to let 
 | [GraphMVP](https://openreview.net/pdf?id=xQUe1pOKPam)  | GIN + SchNet | GEOM (50k)             | ~ 2M  |[Link](https://github.com/chao1224/GraphMVP)|
 
 
-
 <a name="Datasets"></a>
 ## Pretraing Datasets
 | Name           | Category  | Download Link |
@@ -274,7 +273,24 @@ If you find there are other resources with this topic missing, feel free to let 
 | QM9  | Molecular Graph| [Link](http://quantum-machine.org/datasets/) |
 | QMugs  |Molecular Graph |   [Link](https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM) |
 | GEOM | Molecular Graph |  [Link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JNGTDF) |
-
+<a name="cite"></a>
+## Citation
+```
+@inproceedings{
+xia2022pretraining,
+title={Pre-training Graph Neural Networks for Molecular Representations: Retrospect and Prospect},
+author={Jun Xia and Yanqiao Zhu and Yuanqi Du and Stan Z. Li},
+booktitle={ICML 2022 2nd AI for Science Workshop},
+year={2022},
+url={https://openreview.net/forum?id=dhXLkrY2Nj3}
+}
+@article{xia2022systematic,
+  title={A Systematic Survey of Molecular Pre-trained Models},
+  author={Xia, Jun and Zhu, Yanqiao and Du, Yuanqi and Liu, Yue and Li, Stan Z},
+  journal={arXiv preprint arXiv:2210.16484},
+  year={2022}
+}
+```
 ## Acknowledgements
 + [awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models)
 + [awesome-self-supervised-gnn](https://github.com/ChandlerBang/awesome-self-supervised-gnn)
