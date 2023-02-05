@@ -4,7 +4,7 @@
 
 This is a repository to help all readers who are interested in pre-training on molecules. 
 If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2023-1-29**
+> **Last update date: 2023-2-5**
 
 ## Contents
 - [Papers List](#papers)
@@ -27,6 +27,8 @@ If you find there are other resources with this topic missing, feel free to let 
 1. [ICLR 2023]**Mole-BERT: Rethinking Pre-training Graph Neural Networks for Molecules**[[paper]](https://openreview.net/forum?id=jevY-DtiZTR)[[code]](https://github.com/junxia97/Mole-BERT)
 1. [ICLR 2023]**Molecular Geometry Pretraining with SE(3)-Invariant Denoising Distance Matching**[[paper]](https://openreview.net/forum?id=CjTHVo1dvR)[[code]](https://github.com/chao1224/GeoSSL)
 1. [ICLR 2023]**Pre-training via Denoising for Molecular Property Prediction**[[paper]](https://openreview.net/forum?id=tYIMtogyee)[[code]](https://github.com/shehzaidi/pre-training-via-denoising)
+1. [Research 2022]**Pushing the Boundaries of Molecular Property Prediction for Drug Discovery with Multitask Learning BERT Enhanced by SMILES Enumeration**[[paper]](https://spj.science.org/doi/10.34133/research.0004)
+1. [ArXiv 2023]**Drug Synergistic Combinations Predictions via Large-Scale Pre-Training and Graph Structure Learning**[[paper]](https://arxiv.org/abs/2301.05931)
 1. [JMGM 2023]**MolRoPE-BERT: An enhanced molecular representation with Rotary Position Embedding for molecular property prediction**[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S1093326322002236)[[Code]]()
 2. [Nature Machine Intelligence 2022]**Accurate prediction of molecular properties and drug targets using a self-supervised image representation learning framework.**[[Paper]](https://www.nature.com/articles/s42256-022-00557-6)[[Code]](https://github.com/HongxinXiang/ImageMol)
 3. [AAAI 2023]**Energy-motivated equivariant pretraining for 3d molecular graphs**[[Paper]](https://arxiv.org/abs/2207.08824)[[Code]](https://github.com/jiaor17/3D-EMGP)
