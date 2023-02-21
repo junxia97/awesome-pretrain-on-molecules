@@ -24,6 +24,7 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [ChemRXiv]**Is GPT-3 all you need for low-data discovery in chemistry?**[[paper]](https://chemrxiv.org/engage/chemrxiv/article-details/63eb5a669da0bc6b33e97a35)[[Code]](https://github.com/kjappelbaum/gptchem)
 1. [ICLR 2023]**Mole-BERT: Rethinking Pre-training Graph Neural Networks for Molecules**[[paper]](https://openreview.net/forum?id=jevY-DtiZTR)[[code]](https://github.com/junxia97/Mole-BERT)
 1. [ICLR 2023]**Molecular Geometry Pretraining with SE(3)-Invariant Denoising Distance Matching**[[paper]](https://openreview.net/forum?id=CjTHVo1dvR)[[code]](https://github.com/chao1224/GeoSSL)
 1. [ICLR 2023]**Pre-training via Denoising for Molecular Property Prediction**[[paper]](https://openreview.net/forum?id=tYIMtogyee)[[code]](https://github.com/shehzaidi/pre-training-via-denoising)
