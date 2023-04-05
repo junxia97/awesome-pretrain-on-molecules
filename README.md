@@ -4,7 +4,7 @@
 
 This is a repository to help all readers who are interested in pre-training on molecules. 
 If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2023-3-20**
+> **Last update date: 2023-4-05**
 
 ## Contents
 - [Papers List](#papers)
@@ -24,6 +24,7 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [Digital Discovery]**Chemical representation learning for toxicity prediction**[[paper]](https://pubs.rsc.org/en/content/articlelanding/2023/dd/d2dd00099g)
 1. [ArXiv 2023]**Denoise Pre-training on Non-equilibrium Molecules for Accurate and Transferable Neural Potentials**[[paper]](https://arxiv.org/abs/2303.02216)
 1. [JPCM]**Extracting Predictive Representations from Hundreds of Millions of Molecules**[[paper]](https://pubs.acs.org/doi/10.1021/acs.jpclett.1c03058)
 1. [ArXiv 2023]**MOLECULAR PROPERTY PREDICTION BY SEMANTIC-INVARIANT CONTRASTIVE LEARNING**[[paper]](https://arxiv.org/pdf/2303.06902.pdf)
