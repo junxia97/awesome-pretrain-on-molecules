@@ -24,6 +24,7 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [Nature Machine Intelligence]**Regression Transformer enables concurrent sequence regression and generation for molecular language modelling**[[paper]](https://www.nature.com/articles/s42256-023-00639-z)
 1. [Digital Discovery]**Chemical representation learning for toxicity prediction**[[paper]](https://pubs.rsc.org/en/content/articlelanding/2023/dd/d2dd00099g)
 1. [ArXiv 2023]**Denoise Pre-training on Non-equilibrium Molecules for Accurate and Transferable Neural Potentials**[[paper]](https://arxiv.org/abs/2303.02216)
 1. [JPCM]**Extracting Predictive Representations from Hundreds of Millions of Molecules**[[paper]](https://pubs.acs.org/doi/10.1021/acs.jpclett.1c03058)
