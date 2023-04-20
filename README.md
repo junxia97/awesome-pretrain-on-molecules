@@ -1,4 +1,4 @@
-# A Systematic Survey of Molecular Pre-trained Models (Chemical Language Models)
+# A Systematic Survey of Molecular Pre-trained Models (Chemical Language Models) [IJCAI 2023]
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/junxia97/awesome-pretrain-on-graphs?color=yellow)  ![GitHub forks](https://img.shields.io/github/forks/junxia97/awesome-pretrain-on-graphs?color=green&label=Fork) 
 <!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=junxia97.awesome-pretrain-on-graphs) -->
 
