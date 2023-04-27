@@ -24,6 +24,7 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [ICML 2023]**A Group Symmetric Stochastic Differential Equation Model for Molecule Multi-modal Pretraining**[[paper]]()[[code]](https://github.com/chao1224/MoleculeSDE)
 1. [Arxiv 2023]**SELFormer: Molecular Representation Learning via SELFIES Language Models**[[paper]](https://arxiv.org/abs/2304.04662)
 1. [Nature Machine Intelligence]**Regression Transformer enables concurrent sequence regression and generation for molecular language modelling**[[paper]](https://www.nature.com/articles/s42256-023-00639-z)
 1. [Digital Discovery]**Chemical representation learning for toxicity prediction**[[paper]](https://pubs.rsc.org/en/content/articlelanding/2023/dd/d2dd00099g)
@@ -295,11 +296,11 @@ booktitle={ICML 2022 2nd AI for Science Workshop},
 year={2022},
 url={https://openreview.net/forum?id=dhXLkrY2Nj3}
 }
-@article{xia2022systematic,
+@article{xia2023systematic,
   title={A Systematic Survey of Molecular Pre-trained Models},
   author={Xia, Jun and Zhu, Yanqiao and Du, Yuanqi and Liu, Yue and Li, Stan Z},
-  journal={arXiv preprint arXiv:2210.16484},
-  year={2022}
+  journal={IJCAI},
+  year={2023}
 }
 ```
 ## Acknowledgements
