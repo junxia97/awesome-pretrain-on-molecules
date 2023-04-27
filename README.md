@@ -1,4 +1,4 @@
-# A Systematic Survey of Molecular Pre-trained Models (Chemical Language Models) [IJCAI 2023]
+# A Systematic Survey of Chemical Pre-trained Models [IJCAI 2023]
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/junxia97/awesome-pretrain-on-graphs?color=yellow)  ![GitHub forks](https://img.shields.io/github/forks/junxia97/awesome-pretrain-on-graphs?color=green&label=Fork) 
 <!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=junxia97.awesome-pretrain-on-graphs) -->
 
@@ -297,7 +297,7 @@ year={2022},
 url={https://openreview.net/forum?id=dhXLkrY2Nj3}
 }
 @article{xia2023systematic,
-  title={A Systematic Survey of Molecular Pre-trained Models},
+  title={A Systematic Survey of Chemical Pre-trained Models},
   author={Xia, Jun and Zhu, Yanqiao and Du, Yuanqi and Liu, Yue and Li, Stan Z},
   journal={IJCAI},
   year={2023}
