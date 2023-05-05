@@ -277,7 +277,7 @@ If you find there are other resources with this topic missing, feel free to let 
 
 
 <a name="Datasets"></a>
-## Pretraing Datasets
+## Pre-traing Datasets
 | Name           | Category  | Download Link |
 | :----------:  | :---------: | :------: |
 | ZINC  | Molecular Graph |    [Link](https://zinc15.docking.org/) |
