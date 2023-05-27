@@ -4,7 +4,7 @@
 
 This is a repository to help all readers who are interested in pre-training on molecules. 
 If you find there are other resources with this topic missing, feel free to let us know via github issues, pull requests or my email: xiajun@westlake.edu.cn. We will update this repository and paper on a regular basis to maintain up-to-date.
-> **Last update date: 2023-4-27**
+> **Last update date: 2023-5-27**
 
 ## Contents
 - [Papers List](#papers)
@@ -24,6 +24,8 @@ If you find there are other resources with this topic missing, feel free to let 
 <a name="prestrategies"></a>
 
 ### Pretraining Strategies
+1. [ChemRXiv]**Learning chemical intuition from humans in the loop**[[paper]](https://chemrxiv.org/engage/chemrxiv/article-details/63f89282897b18336f0c5a55)
+1. [Nature Machine Intelligence]**Knowledge graph-enhanced molecular contrastive learning with functional prompt**[[paper]](https://www.nature.com/articles/s42256-023-00654-0)
 1. [IJCAI 2023]**A Systematic Survey of Chemical Pre-trained Models**[[paper]](https://arxiv.org/abs/2210.16484)[[code]](https://github.com/junxia97/awesome-pretrain-on-molecules)
 1. [ICML 2023]**A Group Symmetric Stochastic Differential Equation Model for Molecule Multi-modal Pretraining**[[paper]]()[[code]](https://github.com/chao1224/MoleculeSDE)
 1. [Arxiv 2023]**SELFormer: Molecular Representation Learning via SELFIES Language Models**[[paper]](https://arxiv.org/abs/2304.04662)
